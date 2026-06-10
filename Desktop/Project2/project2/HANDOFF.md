@@ -4,7 +4,7 @@
 > 여기에는 **상태만** 기록한다 — 절차·DoD·수치·스키마는 SSOT 3종이 원문 (복제 금지).
 
 ## 현재 상태
-- 날짜 / Phase: D0 (2026-06-10) / Phase 0 최종 마무리 완료, discovery.md 승인 대기
+- 날짜 / Phase: D0 (2026-06-10) / 0-a~0-d WHERE 테스트 진행 중
 - 빌드 상태: scaffold 완료, npm install 완료 (빌드 미실행)
 - 브랜치: long
 
@@ -15,42 +15,52 @@
 - `scripts/00-discover.ts` Phase 0 전체 (A~G + S1~S4) 실행 완료
 - `scripts/00-final.ts` Phase 0 최종 마무리 (T1·S1잔여·SemVal) 실행 완료
 - `pipeline-cache/discovery.md` 갱신 완료 (gitignored)
-- 커밋: 01d59c5 (D0 scaffold), ed515f0 (S1~S4), 9815923 (docs CURSOR_GUIDE v2.2 + CLAUDE.md)
+- 커밋: 01d59c5 (D0 scaffold), ed515f0 (S1~S4), 9815923 (docs CURSOR_GUIDE v2.2 + CLAUDE.md), 5acc7dc (T1/S1잔여/SemVal)
 
-### S1 — 4리그 League 필드 실값 확정
-| 리그 | 시대 | League 실값 |
-|---|---|---|
-| LCK | 2016/2025 | `"LoL Champions Korea"` |
-| LPL | 2016/2025 | `"Tencent LoL Pro League"` |
-| EU LCS | 2016 | `"Europe League Championship Series"` |
-| LEC | 2025 | `"LoL EMEA Championship"` |
-| LCS (NA) | 2016 | `"North America League Championship Series"` |
-| LCS | 2020 | `"League of Legends Championship Series"` |
-| LTA North | 2025 | `"League of Legends Championship of The Americas North"` |
-| Worlds | 2016 | `"World Championship"`, OverviewPage: `"2016 Season World Championship"` |
-| MSI | 2016 | `"Mid-Season Invitational"`, OverviewPage: `"2016 Mid-Season Invitational"` |
+### Phase 0 검증 결과 요약
+| 항목 | 결과 |
+|---|---|
+| LCK League 값 | `"LoL Champions Korea"` |
+| LPL League 값 | `"Tencent LoL Pro League"` |
+| EU LCS League 값 | `"Europe League Championship Series"` |
+| LEC League 값 | `"LoL EMEA Championship"` |
+| LCS (2020) League 값 | `"League of Legends Championship Series"` |
+| LTA North (2025) League 값 | `"League of Legends Championship of The Americas North"` |
+| Worlds 2016 OverviewPage | `"2016 Season World Championship"` |
+| MSI 2016 OverviewPage | `"2016 Mid-Season Invitational"` |
+| LCK 2016 Summer Playoffs OverviewPage | `"LCK/2016 Season/Summer Playoffs"` |
+| TournamentResults no-WHERE (Team,Place,OverviewPage,Date) | 성공 (OGN Club Masters 초기 노이즈 확인) |
+| Standings LCK 2016 Summer Playoffs | **0행 — 미커버** |
+| ScoreboardPlayers LIKE "LCK/2016%" | 성공 (채택) |
+| Players (Faker) | 성공, Image 공란 |
+| PlayerImages allimages Plan B | 성공 (`Faker2014.jpg`, `Faker_Summer_2016.png` 등) |
+| Special:Filepath | 403 — CDN 직접 URL 사용으로 대체 |
+
+### 호빈 판단 (2026-06-10, 새 세션 지시)
+- **판단1**: intl-results.csv 정적 입력 전환 기각. TournamentResults WHERE 점증 테스트 먼저.
+- **판단2**: 순위 소스 복합 구조 확정 — 플옵·Worlds·MSI = TournamentResults, 정규시즌 순위 = 0-d 결과로 확정.
 
 ## 진행 중
-- (없음)
+- `scripts/00-where-test.ts` 작성 중 (0-a~0-d TournamentResults WHERE 테스트)
 
 ## 다음 작업
-1. **TournamentResults WHERE 테스트** (새 세션, 레이트리밋 쿨다운): `WHERE OverviewPage="2016 Season World Championship"` 시도 → 성공 시 Worlds 순위 채택; 실패(MWException) 시 `pipeline-input/intl-results.csv` 정적 입력으로 전환 (호빈 판단)
-2. **SemVal 보완**: TournamentResults로 LCK 2016 Summer Playoffs Place=1 = SKT T1 검증 (Standings 불가 확인)
-3. **discovery.md 호빈 승인** → Phase 1 착수
+1. 0-a~0-d 테스트 실행 + discovery.md 갱신 + pipeline: 커밋
+2. **판정 규칙**:
+   - 0-b 성공 → 순위 소스 확정 완료, Phase 1 착수
+   - 0-b 실패·0-a 성공 → Date 범위 청크 + 로컬 필터 전략 기록 후 Phase 1 착수
+   - 둘 다 실패 → 멈추고 보고
+3. Phase 1 완료 시 §0 보고 포맷 출력 + HANDOFF.md 갱신. awards.csv 초안은 검수 대기.
 
 ## 호빈 게이트 대기
-- **discovery.md 승인** (D0 게이트)
-- **TournamentResults WHERE 가능 여부** 판단 (아래 미해결 이슈 참조)
+- **0-a~0-d 테스트 결과 확인** (자동 진행 조건: 0-b 성공)
+- **awards.csv 검수** (Phase 1 완료 후)
+- CURSOR_GUIDE_1.md · CLAUDE_1.md 중복 파일 삭제 여부
 
 ## 미해결 이슈 / 결정 대기
-- **CRITICAL**: TournamentResults no-WHERE는 작동하지만 Team="", Place="'" 등 데이터 품질 이슈 확인 필요. WHERE 사용 가능 여부 미확인 (이전 run은 MWException, 원인 불명).
-- **CRITICAL**: Standings에 LCK Season Playoffs + Worlds 데이터 없음 → §4.3 레이팅 공식 집행 방법 결정 필요 (호빈).
-  - 옵션 A: TournamentResults WHERE = 테스트 성공 시 채택
-  - 옵션 B: `pipeline-input/intl-results.csv` 정적 입력 (Worlds/MSI 역대 순위 수기 입력)
-- Special:Filepath → 403 (Phase 2 이미지는 allimages CDN URL로 대체 예정)
-- CURSOR_GUIDE_1.md · CLAUDE_1.md 중복 파일 존재 (삭제 여부 호빈 확인)
-- 앵커 10개 D0 수기 계산 → 레이팅 가중치 1회 확정 (PRD §6.2)
-- 네이밍/도메인 (PRD §13 잔존 Q1)
+- 앵커 10개 D0 수기 계산 → 레이팅 가중치 확정 (PRD §6.2) — Phase 1 완료 후 필요
+- 네이밍/도메인 (PRD §13 Q1)
+- PlayerImages SortDate 공란 → Tournament 연도 파싱 정렬 규칙 (호빈 확인 대기)
 
 ## 세션 로그 (최근 5개만 유지)
-- 2026-06-10: CURSOR_GUIDE v2.2 + CLAUDE.md docs 커밋, Phase 0 최종 마무리(T1·S1잔여·SemVal) 완료, discovery.md 갱신
+- 2026-06-10 (세션2): 호빈 판단(intl-results.csv 기각·복합 순위 소스) 반영, HANDOFF.md 갱신, 0-a~0-d 테스트 착수
+- 2026-06-10 (세션1): CURSOR_GUIDE v2.2 + CLAUDE.md docs 커밋, Phase 0 최종 마무리(T1·S1잔여·SemVal) 완료, discovery.md 갱신
