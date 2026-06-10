@@ -8,11 +8,12 @@ export type CargoRow = Record<string, string>
 
 const BASE = 'https://lol.fandom.com/api.php'
 const UA = 'AllTimeDraftBot/1.0 (personal fan project; parkhb1181@gmail.com)'
-const THROTTLE_MS = 1000
+const THROTTLE_MS = 5000
 const PAGE_LIMIT = 500
 
 // 모듈 전역 — 프로세스 내 모든 호출이 공유
 let lastCallAt = 0
+let consecutiveSuccess = 0
 
 function sleep(ms: number) {
   return new Promise<void>(r => setTimeout(r, ms))
@@ -36,7 +37,8 @@ async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
   u.searchParams.set('format', 'json')
   for (const [k, v] of Object.entries(params)) u.searchParams.set(k, v)
 
-  for (let attempt = 0; attempt < 4; attempt++) {
+  const BACKOFF = [60_000, 90_000, 120_000, 180_000, 240_000, 300_000]
+  for (let attempt = 0; attempt < BACKOFF.length + 1; attempt++) {
     let res: Response
     try {
       res = await apiFetch(u.toString())
@@ -48,13 +50,15 @@ async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
     const json: RawCargo = await res.json()
     if (json.error) {
       if (json.error.code === 'ratelimited') {
-        const wait = [10_000, 20_000, 40_000][attempt] ?? 40_000
-        process.stderr.write(`ratelimited — ${wait / 1000}s 대기\n`)
+        consecutiveSuccess = 0
+        const wait = BACKOFF[attempt] ?? BACKOFF[BACKOFF.length - 1]
+        process.stderr.write(`ratelimited (attempt ${attempt + 1}) — ${wait / 1000}s 대기\n`)
         await sleep(wait)
         continue
       }
       throw new Error(`Cargo: ${JSON.stringify(json.error)}`)
     }
+    consecutiveSuccess++
     return (json.cargoquery ?? []).map(r => r.title)
   }
   throw new Error('ratelimited after retries')
