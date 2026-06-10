@@ -70,7 +70,20 @@ export function initCargo() {
   fs.mkdirSync(CACHE_DIR, { recursive: true })
 }
 
+const FAILURES_FILE = path.join(process.cwd(), 'pipeline-cache', 'cargo-failures.json')
+
+function recordFailure(cacheKey: string) {
+  const list: string[] = fs.existsSync(FAILURES_FILE)
+    ? JSON.parse(fs.readFileSync(FAILURES_FILE, 'utf-8'))
+    : []
+  if (!list.includes(cacheKey)) {
+    list.push(cacheKey)
+    fs.writeFileSync(FAILURES_FILE, JSON.stringify(list, null, 2), 'utf-8')
+  }
+}
+
 // 단일 WHERE 분할에 대한 전체 페이지네이션 + 파일 캐시
+// rate-limit 최대 재시도 후에도 실패 시: 빈 배열 반환 + cargo-failures.json 기록 (중단 없이 계속)
 export async function cargoPaginate(
   params: Record<string, string>,
   cacheKey: string
@@ -84,15 +97,25 @@ export async function cargoPaginate(
   let offset = 0
   process.stderr.write(`[cargo] ${cacheKey}\n`)
 
-  while (true) {
-    const page = await fetchOnce({
-      ...params,
-      limit: String(PAGE_LIMIT),
-      offset: String(offset),
-    })
-    all.push(...page)
-    if (page.length < PAGE_LIMIT) break
-    offset += PAGE_LIMIT
+  try {
+    while (true) {
+      const page = await fetchOnce({
+        ...params,
+        limit: String(PAGE_LIMIT),
+        offset: String(offset),
+      })
+      all.push(...page)
+      if (page.length < PAGE_LIMIT) break
+      offset += PAGE_LIMIT
+    }
+  } catch (err) {
+    if (err instanceof Error && err.message === 'ratelimited after retries') {
+      // 최대 재시도 후에도 실패 — 빈 배열로 폴백, 재실행 시 다시 시도 가능
+      process.stderr.write(`[cargo] ${cacheKey} — 최대 재시도 실패, 스킵 (cargo-failures.json 기록)\n`)
+      recordFailure(cacheKey)
+      return []
+    }
+    throw err
   }
 
   fs.writeFileSync(cacheFile, JSON.stringify(all, null, 2), 'utf-8')
