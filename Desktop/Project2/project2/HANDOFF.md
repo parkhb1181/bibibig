@@ -4,9 +4,9 @@
 > 여기에는 **상태만** 기록한다 — 절차·DoD·수치·스키마는 SSOT 3종이 원문 (복제 금지).
 
 ## 현재 상태
-- 날짜 / Phase: D1 (2026-06-10) / Phase 1 착수 (01~04, 07 구현 중)
-- 빌드 상태: scaffold 완료, npm install 완료 (빌드 미실행)
-- 브랜치: main (long → main 개명 완료)
+- 날짜 / Phase: D1 (2026-06-11) / 02-rosters.ts 백그라운드 실행 중 (b4ys0de8e)
+- 빌드 상태: scaffold 완료, TypeScript noEmit 통과 (빌드 미실행)
+- 브랜치: main
 
 ## 완료
 - 스캐폴드: Next.js 15 + TypeScript + Tailwind, src/ 구조
@@ -54,17 +54,42 @@
 | LCS | `"League of Legends Championship Series"` (2020+), `"North America League Championship Series"` (초기) |
 | LTA_NORTH | `"League of Legends Championship of The Americas North"` |
 
-## 진행 중
-- Phase 1 착수: scripts/lib/cargo.ts + 01~04, 07 구현 중
+## 구현 완료 스크립트
+- `scripts/lib/cargo.ts` — 스로틀 5000ms / 백오프 6회 / 파일 캐시
+- `scripts/01-tournaments.ts` — 백그라운드 실행 중 (Worlds 2023 rate-limit, 캐시 62/~75개)
+- `scripts/02-rosters.ts` — 01 완료 후 실행 예정
+- `scripts/03-results.ts` — 02 완료 후 실행 예정
+- `scripts/04-ratings.ts` — 03 완료 후 실행 예정 (PROVISIONAL 모드)
+- `scripts/07-build.ts` — 04 완료 후 실행 예정 (PROVISIONAL)
+- `scripts/08-anchors.ts` — 07 완료 후 실행 (players.json 의존)
+- `scripts/09-montecarlo.ts` — Phase 4 구현 완료 (players.json 의존)
+- `scripts/10-photo-whitelist.ts` — 03 완료 후 실행 (Worlds 2013~2024 상위 4팀 화이트리스트, 2025 제외 수정 완료)
+- `scripts/11-photo-download.ts` — 호빈 승인 후 수동 실행 (승인 게이트: pipeline-cache/photo-whitelist-approved.txt 생성)
+- `src/lib/sim.ts` — Phase 4 구현 완료
+- `src/lib/grade.ts` — Phase 4 구현 완료
+- `src/lib/useDraftMachine.ts` — Phase 3 상태머신 훅 구현 완료
+- `src/app/draft/page.tsx` — Phase 3 draft 페이지 구현 완료
+- `src/components/PlayerCard.tsx` — Phase 3 PlayerCard (3 size) 구현 완료
+- `src/i18n/` — en/ko 딕셔너리 + LangContext 구현 완료
+
+## 오버나이트 실행 순서
+1. 01 완료 → 02-rosters.ts (백그라운드, 수십분 소요)
+2. 02 완료 → 03-results.ts
+3. 03 완료 → 04-ratings.ts + 10-photo-whitelist.ts (순차)
+4. 04 완료 → 07-build.ts (PROVISIONAL 빌드)
+5. 07 완료 → 08-anchors.ts + 09-montecarlo.ts
+6. 전체 완료 → §0 보고 + awards.csv 초안 생성 → 호빈 검수 대기
 
 ## 다음 작업
-1. `scripts/lib/cargo.ts` 구현 (쿼리 분할 클라이언트, §4.1)
-2. `scripts/01-tournaments.ts` — 4리그 × 2013~2025 대회 목록 수집
-3. `scripts/02-rosters.ts` — ScoreboardPlayers 기반 로스터 도출 (§3 규칙)
-4. `scripts/03-results.ts` — TournamentResults 순위 수집 (WHERE OverviewPage 정확 일치 우선)
-5. `scripts/04-ratings.ts` — 레이팅 산출 + awards.csv 병합
-6. `scripts/07-build.ts` — zod 검증 + JSON 빌드
-7. Phase 1 완료 후: §0 보고 포맷 출력, awards.csv 초안 생성 → 검수 대기
+- **02-rosters.ts 완료 대기** (b4ys0de8e 백그라운드 — LCK 2018 Summer rate-limit 통과 중, cargo 캐시 170/293+개)
+- 02 완료 → 03 → 10(whitelist) → 04(PROVISIONAL) → 07(PROVISIONAL) → 08 → 09 자동 연쇄
+- 아침: awards.csv 검수 + 앵커 가중치 → 04~07 정식 재실행
+- 아침: photo-whitelist.json 검수 → pipeline-cache/photo-whitelist-approved.txt 생성 → 11 수동 실행
+
+## 호빈 게이트 대기
+- **awards.csv 검수** (PROVISIONAL 빌드 후)
+- **photo-whitelist.json 검수** (10 실행 후) — 승인 후 사진 다운로드
+- 앵커 10개 D0 수기 계산 → 레이팅 가중치 확정 (PRD §6.2)
 
 ## 호빈 게이트 대기
 - **awards.csv 검수** (Phase 1 완료 후)
@@ -73,9 +98,12 @@
 ## 미해결 이슈 / 결정 대기
 - 앵커 10개 D0 수기 계산 → 레이팅 가중치 확정 (PRD §6.2) — Phase 1 완료 후 필요
 - 네이밍/도메인 (PRD §13 Q1)
-- LCS 초기(2013~2019) League 값 = `"North America League Championship Series"` vs `"League of Legends Championship Series"` — 01-tournaments.ts 실행 시 확정
+- LCS 초기(2013~2018) = `"North America League Championship Series"`, 2019+ = `"League of Legends Championship Series"` (tournaments.json 확정)
+- cargo-failures.json: rate-limit 최대 재시도 실패한 대회 목록 (07 완료 후 결손 확인 필요)
 
 ## 세션 로그 (최근 5개만 유지)
+- 2026-06-11 (세션5): 10-photo-whitelist.ts 2025 제외 수정, 11-photo-download.ts 신규 (승인 게이트 포함). 01-tournaments.ts 재실행 — MSI rate-limit 대기 중
+- 2026-06-10 (세션4): Phase 1 스크립트 전체 구현 완료 + sim.ts/grade.ts/09-montecarlo.ts (Phase 4) 커밋. useDraftMachine/PlayerCard/draft page/i18n 구현 완료
 - 2026-06-10 (세션3): long→main 개명, CURSOR_GUIDE_1.md 삭제, §5 항목1 SortDate 규칙 교체, WHERE 테스트 결과 반영, Phase 1 착수
 - 2026-06-10 (세션2): 호빈 판단(intl-results.csv 기각·복합 순위 소스) 반영, 0-a~0-d WHERE 테스트 완료·커밋
 - 2026-06-10 (세션1): CURSOR_GUIDE v2.2 + CLAUDE.md docs 커밋, Phase 0 최종 마무리(T1·S1잔여·SemVal) 완료, discovery.md 갱신
