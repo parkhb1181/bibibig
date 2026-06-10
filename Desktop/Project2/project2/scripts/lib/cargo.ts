@@ -31,6 +31,8 @@ interface RawCargo {
   error?: { code?: string; info?: string }
 }
 
+const RETRIES_EXHAUSTED = 'retries exhausted'
+
 async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
   const u = new URL(BASE)
   u.searchParams.set('action', 'cargoquery')
@@ -39,11 +41,25 @@ async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
 
   const BACKOFF = [60_000, 90_000, 120_000, 180_000, 240_000, 300_000]
   for (let attempt = 0; attempt < BACKOFF.length + 1; attempt++) {
+    const wait = BACKOFF[attempt] ?? BACKOFF[BACKOFF.length - 1]
+
     let res: Response
     try {
       res = await apiFetch(u.toString())
     } catch (e) {
-      throw new Error(`network: ${e instanceof Error ? e.message : String(e)}`)
+      // 네트워크 오류(DNS 실패, 연결 끊김 등)도 일시적 — 백오프 재시도
+      consecutiveSuccess = 0
+      process.stderr.write(`network error (attempt ${attempt + 1}) — ${wait / 1000}s 대기: ${e}\n`)
+      await sleep(wait)
+      continue
+    }
+
+    // 5xx 서버 오류도 일시적 — 재시도
+    if (res.status >= 500) {
+      consecutiveSuccess = 0
+      process.stderr.write(`HTTP ${res.status} (attempt ${attempt + 1}) — ${wait / 1000}s 대기\n`)
+      await sleep(wait)
+      continue
     }
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
 
@@ -51,7 +67,6 @@ async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
     if (json.error) {
       if (json.error.code === 'ratelimited') {
         consecutiveSuccess = 0
-        const wait = BACKOFF[attempt] ?? BACKOFF[BACKOFF.length - 1]
         process.stderr.write(`ratelimited (attempt ${attempt + 1}) — ${wait / 1000}s 대기\n`)
         await sleep(wait)
         continue
@@ -61,7 +76,7 @@ async function fetchOnce(params: Record<string, string>): Promise<CargoRow[]> {
     consecutiveSuccess++
     return (json.cargoquery ?? []).map(r => r.title)
   }
-  throw new Error('ratelimited after retries')
+  throw new Error(RETRIES_EXHAUSTED)
 }
 
 const CACHE_DIR = path.join(process.cwd(), 'pipeline-cache', 'cargo')
@@ -109,7 +124,7 @@ export async function cargoPaginate(
       offset += PAGE_LIMIT
     }
   } catch (err) {
-    if (err instanceof Error && err.message === 'ratelimited after retries') {
+    if (err instanceof Error && err.message === RETRIES_EXHAUSTED) {
       // 최대 재시도 후에도 실패 — 빈 배열로 폴백, 재실행 시 다시 시도 가능
       process.stderr.write(`[cargo] ${cacheKey} — 최대 재시도 실패, 스킵 (cargo-failures.json 기록)\n`)
       recordFailure(cacheKey)
