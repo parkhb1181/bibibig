@@ -40,10 +40,10 @@ async function main() {
 
   const results: ResultEntry[] = JSON.parse(fs.readFileSync(resultsPath, 'utf-8'))
 
-  // 1. Worlds 전 연도에서 Place <= 4 팀 추출
-  const worldsTop4 = results.filter(r => r.leagueCode === 'WORLDS' && r.place <= 4)
+  // 1. Worlds 2013~2024 Place <= 4 팀 추출 (2025는 미개최 → 제외)
+  const worldsTop4 = results.filter(r => r.leagueCode === 'WORLDS' && r.place <= 4 && r.year <= 2024)
 
-  console.log(`Worlds 상위 4팀 결과: ${worldsTop4.length}건 (${new Set(worldsTop4.map(r => r.year)).size}개 연도)`)
+  console.log(`Worlds 상위 4팀 결과: ${worldsTop4.length}건 (2013~2024, ${new Set(worldsTop4.map(r => r.year)).size}개 연도)`)
 
   // 중복 제거된 (overviewPage, team) 목록
   type TourKey = string  // `${overviewPage}|${team}`
