@@ -1,0 +1,5 @@
+pipeline-cache/
+.env*
+node_modules/
+.next/
+out/
