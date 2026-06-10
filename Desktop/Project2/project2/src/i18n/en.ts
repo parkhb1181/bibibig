@@ -1,2 +1,24 @@
-// Phase 5: English strings
-export const en = {} as const
+export const en = {
+  startButton: 'Start Draft',
+  spinLabel: 'Spinning...',
+  pickPrompt: 'Choose your player',
+  rerollTeam: 'Reroll Team',
+  rerollYear: 'Reroll Year',
+  simulating: 'Simulating season...',
+  skipReveal: 'Skip',
+  playAgain: 'Play Again',
+  copyLink: 'Copy Link',
+  share: 'Share',
+  teamOvr: 'Team OVR',
+  grade: {
+    'GRAND SLAM': 'GRAND SLAM',
+    'LEGENDARY': 'LEGENDARY',
+    'ELITE': 'ELITE',
+    'CONTENDER': 'CONTENDER',
+    'PLAYOFF TEAM': 'PLAYOFF TEAM',
+    'REBUILD': 'REBUILD',
+  },
+  msiWinner: 'MSI WINNER',
+  round: (n: number) => `Round ${n}`,
+  yourTeam: 'Your Team',
+} as const

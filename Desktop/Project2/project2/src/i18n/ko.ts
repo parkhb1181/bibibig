@@ -1,2 +1,24 @@
-// Phase 5: Korean strings
-export const ko = {} as const
+export const ko = {
+  startButton: '드래프트 시작',
+  spinLabel: '추첨 중...',
+  pickPrompt: '선수를 선택하세요',
+  rerollTeam: '팀 다시 뽑기',
+  rerollYear: '연도 다시 뽑기',
+  simulating: '시즌 시뮬레이션 중...',
+  skipReveal: '건너뛰기',
+  playAgain: '다시 하기',
+  copyLink: '링크 복사',
+  share: '공유',
+  teamOvr: '팀 OVR',
+  grade: {
+    'GRAND SLAM': '그랜드슬램',
+    'LEGENDARY': '레전더리',
+    'ELITE': '엘리트',
+    'CONTENDER': '컨텐더',
+    'PLAYOFF TEAM': '플레이오프',
+    'REBUILD': '리빌드',
+  },
+  msiWinner: 'MSI WINNER',
+  round: (n: number) => `라운드 ${n}`,
+  yourTeam: '내 팀',
+} as const
