@@ -174,10 +174,8 @@ async function main() {
     // frame: Worlds Place=1 시즌
     const frame: 'WORLDS' | 'NORMAL' = worldsPlace === 1 ? 'WORLDS' : 'NORMAL'
 
-    // crown: MVP 수상 1개 이상
-    const crown = awards.some(a =>
-      a.award === 'SEASON_MVP' || a.award === 'FINALS_MVP' || a.award === 'WORLDS_MVP'
-    )
+    // crown: 해당 시즌 FINALS_MVP 또는 WORLDS_MVP 수상 시만 (SEASON_MVP 제외 — 호빈 확정)
+    const crown = awards.some(a => a.award === 'FINALS_MVP' || a.award === 'WORLDS_MVP')
 
     // msiWinner: MSI Place=1
     const msiWinner = msiPlace === 1

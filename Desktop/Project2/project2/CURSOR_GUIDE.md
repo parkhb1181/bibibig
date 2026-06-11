@@ -128,7 +128,7 @@ type PlayerSeason = {
   role: "TOP"|"JGL"|"MID"|"ADC"|"SUP";
   ovr: number;           // 60~99 정수
   frame: "WORLDS"|"NORMAL";    // Worlds 우승 시즌만 WORLDS (시머 프레임)
-  crown: boolean;              // MVP 계열(시즌/파이널/Worlds MVP) 1개 이상 수상 시 true — 왕관은 항상 1개
+  crown: boolean;              // 해당 시즌 FINALS_MVP 또는 WORLDS_MVP 수상 시 true (SEASON_MVP 제외) — 왕관은 항상 1개
   msiWinner: boolean;          // MSI 우승 시즌 → "MSI WINNER" 라벨
   photo: string | null;  // R2 공개 URL, 없으면 null
   badges: ("LEAGUE_CHAMP"|"ALLPRO_1ST")[];  // 최대 2개 (Worlds·MSI·MVP는 frame/crown/msiWinner가 담당)
