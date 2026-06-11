@@ -9,7 +9,7 @@ import PlayerCard from '@/components/PlayerCard'
 import { useDraftMachine, ROLES } from '@/lib/useDraftMachine'
 import type { DraftData } from '@/lib/useDraftMachine'
 import { useLang } from '@/i18n'
-import type { PlayerSeason } from '@/lib/data'
+import type { PlayerSeason, Opponent, OpponentsFile } from '@/lib/data'
 
 // ── 데이터 로드 훅 ────────────────────────────────────────────────────────────
 // §13.5: fetch는 mount 후에만 (SSR에서 window/fetch 불요)
@@ -166,13 +166,23 @@ function RevealScreen({
   steps,
   revealStep,
   onSkip,
+  opponents,
 }: {
   steps: { stage: string; label: string; series?: { opp: string; score: string; win: boolean }[] }[]
   revealStep: number
   onSkip: () => void
+  opponents: OpponentsFile | null
 }) {
   const { t } = useLang()
   const visibleSteps = steps.slice(0, revealStep)
+
+  // opp name → {label, rating} 조회 맵 — 패배 표시에 사용
+  const oppMap = new Map<string, Pick<Opponent, 'label' | 'rating'>>()
+  if (opponents) {
+    for (const o of [...opponents.regular, ...opponents.intl]) {
+      oppMap.set(o.name, { label: o.label, rating: o.rating })
+    }
+  }
 
   return (
     <div className="flex flex-col gap-4">
@@ -190,11 +200,17 @@ function RevealScreen({
             <p className="text-sm text-[var(--card-name,#e8e8f0)] font-medium">{step.label}</p>
             {step.series && (
               <div className="flex flex-wrap gap-2 mt-1">
-                {step.series.map((s, j) => (
-                  <span key={j} className={`text-xs px-2 py-0.5 rounded-full ${s.win ? 'bg-green-900/50 text-green-300' : 'bg-red-900/50 text-red-300'}`}>
-                    vs {s.opp} {s.score}
-                  </span>
-                ))}
+                {step.series.map((s, j) => {
+                  const meta = oppMap.get(s.opp)
+                  const display = s.win
+                    ? `vs ${s.opp} ${s.score}`
+                    : `vs ${meta?.label ?? s.opp} (${meta?.rating ?? '?'}) — 패`
+                  return (
+                    <span key={j} className={`text-xs px-2 py-0.5 rounded-full ${s.win ? 'bg-green-900/50 text-green-300' : 'bg-red-900/50 text-red-300'}`}>
+                      {display}
+                    </span>
+                  )
+                })}
               </div>
             )}
           </div>
@@ -395,6 +411,7 @@ export default function DraftPage() {
             steps={state.simResult.steps}
             revealStep={state.revealStep}
             onSkip={machine.revealSkip}
+            opponents={data?.opponents ?? null}
           />
         )}
 

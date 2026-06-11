@@ -39,9 +39,11 @@ export type TeamYear = z.infer<typeof TeamYearSchema>
 
 export const OpponentSchema = z.object({
   name: z.string(),
+  label: z.string(),
   league: z.string(),
   rating: z.number(),
 })
+export type Opponent = z.infer<typeof OpponentSchema>
 
 export const OpponentsFileSchema = z.object({
   regular: z.array(OpponentSchema).length(9),

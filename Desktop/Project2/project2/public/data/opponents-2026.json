@@ -1,27 +1,27 @@
 {
   "regular": [
-    { "name": "BOT-R1", "league": "KR (placeholder)", "rating": 94 },
-    { "name": "BOT-R2", "league": "CN (placeholder)", "rating": 93 },
-    { "name": "BOT-R3", "league": "EU (placeholder)", "rating": 92 },
-    { "name": "BOT-R4", "league": "KR (placeholder)", "rating": 91 },
-    { "name": "BOT-R5", "league": "NA (placeholder)", "rating": 89 },
-    { "name": "BOT-R6", "league": "CN (placeholder)", "rating": 87 },
-    { "name": "BOT-R7", "league": "KR (placeholder)", "rating": 85 },
-    { "name": "BOT-R8", "league": "EU (placeholder)", "rating": 82 },
-    { "name": "BOT-R9", "league": "NA (placeholder)", "rating": 80 }
+    { "name": "BOT-R1", "label": "(placeholder)", "league": "KR (placeholder)", "rating": 94 },
+    { "name": "BOT-R2", "label": "(placeholder)", "league": "CN (placeholder)", "rating": 93 },
+    { "name": "BOT-R3", "label": "(placeholder)", "league": "EU (placeholder)", "rating": 92 },
+    { "name": "BOT-R4", "label": "(placeholder)", "league": "KR (placeholder)", "rating": 91 },
+    { "name": "BOT-R5", "label": "(placeholder)", "league": "NA (placeholder)", "rating": 89 },
+    { "name": "BOT-R6", "label": "(placeholder)", "league": "CN (placeholder)", "rating": 87 },
+    { "name": "BOT-R7", "label": "(placeholder)", "league": "KR (placeholder)", "rating": 85 },
+    { "name": "BOT-R8", "label": "(placeholder)", "league": "EU (placeholder)", "rating": 82 },
+    { "name": "BOT-R9", "label": "(placeholder)", "league": "NA (placeholder)", "rating": 80 }
   ],
   "intl": [
-    { "name": "BOT-I1",  "league": "KR (placeholder)", "rating": 96 },
-    { "name": "BOT-I2",  "league": "CN (placeholder)", "rating": 95 },
-    { "name": "BOT-I3",  "league": "EU (placeholder)", "rating": 94 },
-    { "name": "BOT-I4",  "league": "KR (placeholder)", "rating": 93 },
-    { "name": "BOT-I5",  "league": "CN (placeholder)", "rating": 92 },
-    { "name": "BOT-I6",  "league": "KR (placeholder)", "rating": 91 },
-    { "name": "BOT-I7",  "league": "NA (placeholder)", "rating": 90 },
-    { "name": "BOT-I8",  "league": "CN (placeholder)", "rating": 88 },
-    { "name": "BOT-I9",  "league": "EU (placeholder)", "rating": 87 },
-    { "name": "BOT-I10", "league": "KR (placeholder)", "rating": 85 },
-    { "name": "BOT-I11", "league": "CN (placeholder)", "rating": 83 },
-    { "name": "BOT-I12", "league": "EU (placeholder)", "rating": 81 }
+    { "name": "BOT-I1",  "label": "(placeholder)", "league": "KR (placeholder)", "rating": 96 },
+    { "name": "BOT-I2",  "label": "(placeholder)", "league": "CN (placeholder)", "rating": 95 },
+    { "name": "BOT-I3",  "label": "(placeholder)", "league": "EU (placeholder)", "rating": 94 },
+    { "name": "BOT-I4",  "label": "(placeholder)", "league": "KR (placeholder)", "rating": 93 },
+    { "name": "BOT-I5",  "label": "(placeholder)", "league": "CN (placeholder)", "rating": 92 },
+    { "name": "BOT-I6",  "label": "(placeholder)", "league": "KR (placeholder)", "rating": 91 },
+    { "name": "BOT-I7",  "label": "(placeholder)", "league": "NA (placeholder)", "rating": 90 },
+    { "name": "BOT-I8",  "label": "(placeholder)", "league": "CN (placeholder)", "rating": 88 },
+    { "name": "BOT-I9",  "label": "(placeholder)", "league": "EU (placeholder)", "rating": 87 },
+    { "name": "BOT-I10", "label": "(placeholder)", "league": "KR (placeholder)", "rating": 85 },
+    { "name": "BOT-I11", "label": "(placeholder)", "league": "CN (placeholder)", "rating": 83 },
+    { "name": "BOT-I12", "label": "(placeholder)", "league": "EU (placeholder)", "rating": 81 }
   ]
 }

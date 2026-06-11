@@ -17,6 +17,7 @@ export type SimPlayer = {
 // opponents-2026.json Opponent
 export type Opponent = {
   name: string
+  label: string
   league: string
   rating: number
 }
