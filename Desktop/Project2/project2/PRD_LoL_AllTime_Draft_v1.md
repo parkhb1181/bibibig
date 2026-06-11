@@ -246,6 +246,7 @@ cap 99 / floor 60
 ```
 /data
   players.json        // 선수-시즌: id, 이름(EN/KR), 팀, 연도, 포지션, 레이팅, 사진URL(R2), 주요성적 태그
+                    // ※ nameKo는 점진 보강 필드 — 출시 게이트 아님. null이면 UI가 nameEn 폴백 표시.
   teams.json          // 팀-연도: 팀명, 리전, 로스터 참조
   opponents-2026.json // 시뮬 상대 팀 풀 (고정 티어표)
   spin-index.json     // 팀-연도별 보유 포지션 인덱스 (스핀 풀 사전 필터링용, §4.2-5)
