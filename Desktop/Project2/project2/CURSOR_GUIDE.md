@@ -180,10 +180,10 @@ const INTL = ["Worlds", "MSI"];                       // First Stand 제외 (PRD
 
 ```
 base 60
-+ 국내 플옵 최종 순위: 1위 +10 / 2위 +6 / 3~4위 +3 / 5~6위 +3 / 7위 이하 +1   (연내 복수 스플릿이면 최고 성적 1회만)
++ 국내 플옵 최종 순위: 1위 +10 / 2위 +6 / 3~4위 +3 / 5~6위 +3 / 7위 이하 +1   (연내 복수 스플릿 가점 합산 — 중복제거 없음)
 + MSI: 1위 +8 / 2위 +5 / 3~4위 +3
 + Worlds: 1위 +15 / 2위 +10 / 3~4위 +7 / 5~8위 +4 / 진출 +2
-+ awards.csv: SEASON_MVP +6 / FINALS_MVP +4 / WORLDS_MVP +8 / ALLPRO_1ST +5 / 2ND +3 / 3RD +1
++ awards.csv: SEASON_MVP +6 / FINALS_MVP +4 / WORLDS_MVP +8 / ALLPRO_1ST +5 / 2ND +3 / 3RD +1 (AllPro는 2020+ 시즌만 — 제도 부재 이전 미적용)
 + EDITORIAL: value 그대로 가산 (±1~5, 앵커 보정 전용 — PRD §6.1)
 clamp(60, 99)
 ```

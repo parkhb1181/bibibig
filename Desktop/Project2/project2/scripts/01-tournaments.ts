@@ -43,6 +43,17 @@ function sanitizeKey(s: string): string {
   return s.replace(/[^a-zA-Z0-9_-]/g, '_').replace(/_+/g, '_')
 }
 
+// Rule 2: 연도 걸침 스플릿은 종료 연도 귀속
+// "2013-2014 LCK Winter" 또는 "Winter 2013-14" → 2014
+function adjustYearForCrossing(name: string, overviewPage: string, fallback: number): number {
+  const text = `${name} ${overviewPage}`
+  const m4 = text.match(/20(\d{2})-20(\d{2})/)
+  if (m4) return parseInt('20' + m4[2], 10)
+  const m2 = text.match(/20(\d{2})-(\d{2})/)
+  if (m2) return parseInt('20' + m2[2], 10)
+  return fallback
+}
+
 async function main() {
   initCargo()
 
@@ -70,10 +81,11 @@ async function main() {
         )
         for (const r of rows) {
           if (!r.OverviewPage) continue
+          const name = r.Name ?? ''
           result.push({
-            name: r.Name ?? '',
+            name,
             overviewPage: r.OverviewPage,
-            year,
+            year: adjustYearForCrossing(name, r.OverviewPage, year),
             leagueCode: code,
             leagueValue,
             isPlayoffs: r.IsPlayoffs === '1',

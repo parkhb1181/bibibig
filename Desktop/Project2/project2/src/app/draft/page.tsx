@@ -425,13 +425,7 @@ export default function DraftPage() {
         )}
       </main>
 
-      {/* 푸터 면책 §10 */}
-      <footer className="text-center py-6 px-4 text-[10px] text-[var(--card-meta,#6868a0)] border-t border-[var(--card-border,#2a2a4a)] mt-12">
-        GRANDSLAM is a fan-made project. Not affiliated with or endorsed by Riot Games.
-        League of Legends is a trademark of Riot Games, Inc.
-        <br />
-        GRANDSLAM은 팬메이드 프로젝트입니다. Riot Games와 무관합니다.
-      </footer>
+      {/* 푸터는 layout.tsx 전역 §10 */}
     </div>
   )
 }

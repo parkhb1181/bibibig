@@ -46,18 +46,19 @@ function parseAwardsCsv(csv: string): AwardRow[] {
   }).filter(r => r.playerId && r.year > 0 && r.award)
 }
 
-// §4.3 레이팅 공식
+// §4.3 레이팅 공식 (§6.1 룰 패치 반영)
+// Rule 1: 연내 복수 스플릿 가점 합산 — 최고 1회 아님
+// Rule 4: AllPro 2020+ 시즌만 (제도 부재 이전 미적용)
 function calcOvr(params: {
-  bestPlayoffPlace: number | null
+  playoffPlaces: number[]   // 연내 플옵 결과 전부 (합산 적용)
   msiPlace: number | null
   worldsPlace: number | null
   awards: AwardRow[]
 }): number {
   let score = 60
 
-  // 국내 플옵
-  if (params.bestPlayoffPlace !== null) {
-    const p = params.bestPlayoffPlace
+  // 국내 플옵 — 스플릿별 합산 (Rule 1)
+  for (const p of params.playoffPlaces) {
     if (p === 1) score += 10
     else if (p === 2) score += 6
     else if (p <= 4) score += 3
@@ -83,14 +84,14 @@ function calcOvr(params: {
     else score += 2  // 진출만
   }
 
-  // awards
+  // awards (Rule 4: AllPro는 2020+ 시즌만)
   for (const a of params.awards) {
     if (a.award === 'SEASON_MVP') score += 6
     else if (a.award === 'FINALS_MVP') score += 4
     else if (a.award === 'WORLDS_MVP') score += 8
-    else if (a.award === 'ALLPRO_1ST') score += 5
-    else if (a.award === 'ALLPRO_2ND') score += 3
-    else if (a.award === 'ALLPRO_3RD') score += 1
+    else if (a.award === 'ALLPRO_1ST' && a.year >= 2020) score += 5
+    else if (a.award === 'ALLPRO_2ND' && a.year >= 2020) score += 3
+    else if (a.award === 'ALLPRO_3RD' && a.year >= 2020) score += 1
     else if (a.award === 'EDITORIAL') score += a.value
   }
 
@@ -155,13 +156,10 @@ async function main() {
     const nameEn = playerMeta?.nameEn ?? playerId
     const nameKo = playerMeta?.nameKo ?? null
 
-    // 국내 플옵 — 연내 최고 성적 (place가 낮을수록 좋음)
+    // 국내 플옵 — 연내 전체 플옵 결과 수집 (Rule 1: 합산)
     const domesticKey = `${team}|${year}|${leagueCode}`
     const domesticResults = resultsByTeamYear.get(domesticKey) ?? []
-    const playoffs = domesticResults.filter(r => r.isPlayoffs)
-    const bestPlayoffPlace = playoffs.length > 0
-      ? Math.min(...playoffs.map(r => r.place))
-      : null
+    const playoffPlaces = domesticResults.filter(r => r.isPlayoffs).map(r => r.place)
 
     // Worlds/MSI (팀 이름 기준 매칭)
     const teamYearKey = `${team}|${year}`
@@ -169,7 +167,7 @@ async function main() {
     const msiPlace = msiByTeamYear.get(teamYearKey) ?? null
 
     const awards = awardsByPY.get(`${playerId}|${year}`) ?? []
-    const ovr = calcOvr({ bestPlayoffPlace, msiPlace, worldsPlace, awards })
+    const ovr = calcOvr({ playoffPlaces, msiPlace, worldsPlace, awards })
 
     // frame: Worlds Place=1 시즌
     const frame: 'WORLDS' | 'NORMAL' = worldsPlace === 1 ? 'WORLDS' : 'NORMAL'
@@ -182,8 +180,8 @@ async function main() {
 
     // badges
     const badges: ('LEAGUE_CHAMP' | 'ALLPRO_1ST')[] = []
-    if (bestPlayoffPlace === 1) badges.push('LEAGUE_CHAMP')
-    if (awards.some(a => a.award === 'ALLPRO_1ST')) badges.push('ALLPRO_1ST')
+    if (playoffPlaces.includes(1)) badges.push('LEAGUE_CHAMP')
+    if (awards.some(a => a.award === 'ALLPRO_1ST' && a.year >= 2020)) badges.push('ALLPRO_1ST')
 
     rated.push({
       playerId,
