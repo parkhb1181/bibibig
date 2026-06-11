@@ -1,11 +1,20 @@
 'use client'
 // §6.2 PlayerCard — size variant: 'pick' | 'slot' | 'result'
 // 색·재질 토큰은 CSS 변수로만 수신 (DESIGN_GUIDE 토큰 확정 전 하드코딩 금지)
-// WORLDS 프레임·왕관·MSI WINNER 라벨·배지 오버레이 지원
+// 사진: 결정론적 R2 URL(NEXT_PUBLIC_R2_PUBLIC_BASE_URL/players/{id}.webp) → onError 아바타 폴백
+// players.json photo 필드 불사용 — R2에 파일이 올라오는 대로 자동 반영
 
 import Image from 'next/image'
+import { useState } from 'react'
 import type { PlayerSeason } from '@/lib/data'
 import { useLang } from '@/i18n'
+
+// 결정론적 R2 URL 생성 — 환경변수 미설정 또는 NEXT_PUBLIC_PHOTOS_ENABLED=false 시 null
+function photoUrl(id: string): string | null {
+  if (process.env.NEXT_PUBLIC_PHOTOS_ENABLED === 'false') return null
+  const base = process.env.NEXT_PUBLIC_R2_PUBLIC_BASE_URL
+  return base ? `${base}/players/${id}.webp` : null
+}
 
 export type CardSize = 'pick' | 'slot' | 'result'
 
@@ -43,6 +52,8 @@ function avatarBg(teamSlug: string): string {
 
 export default function PlayerCard({ player, size = 'pick', disabled = false, onClick }: Props) {
   const { lang } = useLang()
+  // imgError: 초기값 false(hydration 안전) — onError 시 아바타로 전환
+  const [imgError, setImgError] = useState(false)
 
   const name = (lang === 'ko' && player.nameKo) ? player.nameKo : player.nameEn
   const isWorlds = player.frame === 'WORLDS'
@@ -104,13 +115,15 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
 
       {/* 중앙 사진 / 아바타 */}
       <div className="flex-1 relative w-full">
-        {player.photo ? (
+        {photoUrl(player.id) && !imgError ? (
           <Image
-            src={player.photo}
+            // 결정론적 URL: R2에 파일이 있으면 즉시 표시, 없으면 onError → 아바타
+            src={photoUrl(player.id)!}
             alt={player.nameEn}
             fill
             className="object-cover object-top"
             sizes="(max-width: 768px) 112px, 144px"
+            onError={() => setImgError(true)}
           />
         ) : (
           // 아바타 폴백: 이니셜 + 팀컬러 그라디언트
