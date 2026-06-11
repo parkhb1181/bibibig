@@ -11,8 +11,8 @@
 
 import fs from 'fs'
 import path from 'path'
+import { spawnSync } from 'child_process'
 import sharp from 'sharp'
-import { S3Client, PutObjectCommand, HeadObjectCommand } from '@aws-sdk/client-s3'
 import type { RostersFile, RosterEntry } from './02-rosters'
 import type { WhitelistEntry } from './10-photo-whitelist'
 
@@ -30,12 +30,27 @@ const ALLIMAGES_CACHE_DIR = path.join(CACHE_DIR, 'allimages')
 const SOURCES_PATH = path.join(CACHE_DIR, 'image-sources.json')
 const LOCAL_OUT = path.join(process.cwd(), 'public', 'players')
 
+// process.env 우선, 없으면 .env.local 폴백
+function loadEnvLocal(): void {
+  const envPath = path.join(process.cwd(), '.env.local')
+  if (!fs.existsSync(envPath)) return
+  for (const line of fs.readFileSync(envPath, 'utf-8').split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) continue
+    const idx = trimmed.indexOf('=')
+    if (idx < 0) continue
+    const key = trimmed.slice(0, idx).trim()
+    const val = trimmed.slice(idx + 1).trim().replace(/[\r\n]/g, '')
+    if (!process.env[key]) process.env[key] = val
+  }
+}
+loadEnvLocal()
+
 const R2_ACCOUNT = process.env.R2_ACCOUNT_ID
-const R2_KEY = process.env.R2_ACCESS_KEY_ID
-const R2_SECRET = process.env.R2_SECRET_ACCESS_KEY
-const R2_BUCKET = process.env.R2_BUCKET
+const CF_TOKEN   = process.env.CLOUDFLARE_API_TOKEN
+const R2_BUCKET  = process.env.R2_BUCKET
 const R2_BASE_URL = process.env.R2_PUBLIC_BASE_URL
-const DRY_RUN = !R2_ACCOUNT || !R2_KEY || !R2_SECRET || !R2_BUCKET
+const DRY_RUN = !R2_ACCOUNT || !CF_TOKEN || !R2_BUCKET
 
 // ─── §3 slugify ──────────────────────────────────────────────────────────────
 
@@ -214,32 +229,30 @@ async function processImage(srcBuf: Buffer): Promise<Buffer> {
     .toBuffer()
 }
 
-// ─── R2 업로드 ────────────────────────────────────────────────────────────────
+// ─── R2 업로드 (wrangler 경로) ───────────────────────────────────────────────
 
-let s3: S3Client | null = null
+// wrangler 공통 env (main() 에서 토큰 주입 후 사용)
+const wranglerEnv: Record<string, string> = {}
 
-function getS3(): S3Client {
-  if (!s3) {
-    s3 = new S3Client({
-      region: 'auto',
-      endpoint: `https://${R2_ACCOUNT}.r2.cloudflarestorage.com`,
-      credentials: { accessKeyId: R2_KEY!, secretAccessKey: R2_SECRET! },
-    })
+function uploadR2(key: string, filePath: string): void {
+  // --remote 침묵 실패 가드 — 없으면 .wrangler/state/v3/r2/ 로컬 저장소로 가서 R2에 올라가지 않음
+  const args = [
+    'r2', 'object', 'put', `${R2_BUCKET}/${key}`,
+    '--file', filePath,
+    '--content-type', 'image/webp',
+    '--remote',
+  ]
+  if (!args.includes('--remote')) throw new Error('--remote 플래그 누락 — 로컬 miniflare 저장 방지를 위해 필수')
+
+  const r = spawnSync('npx', ['wrangler', ...args], {
+    shell: true,
+    env: { ...process.env, ...wranglerEnv },
+    encoding: 'utf-8',
+    timeout: 60_000,
+  })
+  if (r.status !== 0) {
+    throw new Error(`wrangler upload 실패 (key=${key}): ${(r.stderr ?? '').slice(0, 400)}`)
   }
-  return s3
-}
-
-async function r2Exists(key: string): Promise<boolean> {
-  try {
-    await getS3().send(new HeadObjectCommand({ Bucket: R2_BUCKET!, Key: key }))
-    return true
-  } catch { return false }
-}
-
-async function uploadR2(key: string, body: Buffer): Promise<void> {
-  await getS3().send(new PutObjectCommand({
-    Bucket: R2_BUCKET!, Key: key, Body: body, ContentType: 'image/webp',
-  }))
 }
 
 // ─── 메인 ─────────────────────────────────────────────────────────────────────
@@ -255,6 +268,11 @@ async function main() {
   if (DRY_RUN) {
     process.stderr.write('[11-photo-era] R2 환경변수 미설정 — 로컬 dry-run 모드 (public/players/ 저장)\n')
     fs.mkdirSync(LOCAL_OUT, { recursive: true })
+  } else {
+    // wrangler 인증 env 주입 (spawnSync는 process.env 스냅샷을 직접 받으므로 미리 채움)
+    wranglerEnv.CLOUDFLARE_API_TOKEN  = CF_TOKEN!
+    wranglerEnv.CLOUDFLARE_ACCOUNT_ID = R2_ACCOUNT!.replace(/[\r\n\s]/g, '')
+    wranglerEnv.CI = '1'
   }
 
   // 입력 파일 검증
@@ -382,16 +400,21 @@ async function main() {
     }
 
     // 업로드 or 로컬 저장
+    // wrangler는 Buffer 직접 수신 불가 — temp 파일 경유
+    const tmpPath = path.join(CACHE_DIR, '_upload_tmp.webp')
     try {
       if (DRY_RUN) {
         fs.writeFileSync(path.join(LOCAL_OUT, `${psId}.webp`), webpBuf)
       } else {
-        await uploadR2(r2Key, webpBuf)
+        fs.writeFileSync(tmpPath, webpBuf)
+        uploadR2(r2Key, tmpPath)
       }
     } catch (err) {
       process.stderr.write(`  업로드 실패: ${psId} — ${err}\n`)
       failures.push(`${psId} (업로드 실패)`)
       continue
+    } finally {
+      fs.rmSync(tmpPath, { force: true })
     }
 
     sources[psId] = {
