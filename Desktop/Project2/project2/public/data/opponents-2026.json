@@ -1,27 +1,41 @@
 {
   "regular": [
-    { "name": "JAG-16",  "label": "'16 JAG (진에어)",    "league": "KR", "rating": 74 },
-    { "name": "CJ-13",   "label": "'13 CJ 프로스트",     "league": "KR", "rating": 76 },
-    { "name": "KOO-15",  "label": "'15 KOO 타이거즈",    "league": "KR", "rating": 78 },
-    { "name": "AFS-17",  "label": "'17 AFs (아프리카)",   "league": "KR", "rating": 80 },
-    { "name": "GRF-19",  "label": "'19 GRF (그리핀)",    "league": "KR", "rating": 82 },
-    { "name": "KZ-18",   "label": "'18 KZ (킹존)",       "league": "KR", "rating": 85 },
-    { "name": "DK-21",   "label": "'21 DK",              "league": "KR", "rating": 87 },
-    { "name": "ROX-16",  "label": "'16 ROX",             "league": "KR", "rating": 89 },
-    { "name": "GEN-23",  "label": "'23 GEN (젠지)",      "league": "KR", "rating": 91 }
+    { "name": "KT-15",   "label": "'15 KT Rolster",         "league": "KR", "rating": 81 },
+    { "name": "C9-16",   "label": "'16 Cloud9",              "league": "NA", "rating": 81 },
+    { "name": "MSF-17",  "label": "'17 Misfits",             "league": "EU", "rating": 82 },
+    { "name": "H2K-16",  "label": "'16 H2K",                 "league": "EU", "rating": 82 },
+    { "name": "GEN-20",  "label": "'20 Gen.G",               "league": "KR", "rating": 84 },
+    { "name": "T1-21",   "label": "'21 T1",                  "league": "KR", "rating": 84 },
+    { "name": "EG-22",   "label": "'22 Evil Geniuses",       "league": "NA", "rating": 88 },
+    { "name": "T1-25",   "label": "'25 T1",                  "league": "KR", "rating": 89 },
+    { "name": "GEN-23",  "label": "'23 Gen.G",               "league": "KR", "rating": 90 }
   ],
-  "intl": [
-    { "name": "CLG-16",  "label": "'16 CLG",             "league": "NA", "rating": 86 },
-    { "name": "DRX-22",  "label": "'22 DRX",             "league": "KR", "rating": 87 },
-    { "name": "FNC-18",  "label": "'18 FNC",             "league": "EU", "rating": 88 },
-    { "name": "EDG-21",  "label": "'21 EDG",             "league": "CN", "rating": 89 },
-    { "name": "EDG-15",  "label": "'15 EDG",             "league": "CN", "rating": 90 },
-    { "name": "IG-18",   "label": "'18 IG (인빅터스)",    "league": "CN", "rating": 91 },
-    { "name": "JDG-23",  "label": "'23 JDG",             "league": "CN", "rating": 92 },
-    { "name": "G2-19",   "label": "'19 G2",              "league": "EU", "rating": 93 },
-    { "name": "T1-23",   "label": "'23 T1",              "league": "KR", "rating": 94 },
-    { "name": "DWG-20",  "label": "'20 DWG (담원)",      "league": "KR", "rating": 95 },
-    { "name": "FPX-19",  "label": "'19 FPX (펀플러스)",  "league": "CN", "rating": 96 },
-    { "name": "SKT-16",  "label": "'16 SKT T1",          "league": "KR", "rating": 97 }
+  "msi": [
+    { "name": "FNC-21",  "label": "'21 Fnatic",              "league": "EU", "rating": 79 },
+    { "name": "C9-18",   "label": "'18 Cloud9",              "league": "NA", "rating": 81 },
+    { "name": "H2K-16",  "label": "'16 H2K",                 "league": "EU", "rating": 82 },
+    { "name": "MSF-17",  "label": "'17 Misfits",             "league": "EU", "rating": 82 },
+    { "name": "G2-21",   "label": "'21 G2 Esports",          "league": "EU", "rating": 83 },
+    { "name": "T1-21",   "label": "'21 T1",                  "league": "KR", "rating": 84 },
+    { "name": "IG-19",   "label": "'19 Invictus Gaming",     "league": "CN", "rating": 85 },
+    { "name": "SSG-17",  "label": "'17 Samsung Galaxy",      "league": "KR", "rating": 87 },
+    { "name": "TES-20",  "label": "'20 Top Esports",         "league": "CN", "rating": 88 },
+    { "name": "KZ-18",   "label": "'18 Kingzone DragonX",    "league": "KR", "rating": 88 },
+    { "name": "SKT-17",  "label": "'17 SKT T1",              "league": "KR", "rating": 93 },
+    { "name": "SKT-16",  "label": "'16 SKT T1",              "league": "KR", "rating": 94 }
+  ],
+  "worlds": [
+    { "name": "SSG-16",  "label": "'16 Samsung Galaxy",      "league": "KR", "rating": 80 },
+    { "name": "GEN-21",  "label": "'21 Gen.G",               "league": "KR", "rating": 83 },
+    { "name": "LNG-23",  "label": "'23 LNG Esports",         "league": "CN", "rating": 83 },
+    { "name": "KT-18",   "label": "'18 KT Rolster",          "league": "KR", "rating": 84 },
+    { "name": "DRX-22",  "label": "'22 DRX",                 "league": "KR", "rating": 86 },
+    { "name": "RNG-22",  "label": "'22 Royal Never Give Up", "league": "CN", "rating": 88 },
+    { "name": "EDG-15",  "label": "'15 Edward Gaming",       "league": "CN", "rating": 88 },
+    { "name": "MAD-23",  "label": "'23 MAD Lions",           "league": "EU", "rating": 89 },
+    { "name": "T1-25",   "label": "'25 T1",                  "league": "KR", "rating": 89 },
+    { "name": "FPX-19",  "label": "'19 FunPlus Phoenix",     "league": "CN", "rating": 93 },
+    { "name": "T1-23",   "label": "'23 T1",                  "league": "KR", "rating": 94 },
+    { "name": "JDG-23",  "label": "'23 JD Gaming",           "league": "CN", "rating": 97 }
   ]
 }

@@ -30,7 +30,7 @@ function loadData() {
     JSON.parse(fs.readFileSync(path.join(root, 'players.json'), 'utf-8'))
   const teams: TeamYear[] = JSON.parse(fs.readFileSync(path.join(root, 'teams.json'), 'utf-8'))
   const spinIndex: SpinIndex = JSON.parse(fs.readFileSync(path.join(root, 'spin-index.json'), 'utf-8'))
-  const opponents: { regular: Opponent[]; intl: Opponent[] } =
+  const opponents: { regular: Opponent[]; msi: Opponent[]; worlds: Opponent[] } =
     JSON.parse(fs.readFileSync(path.join(root, 'opponents-2026.json'), 'utf-8'))
   return { players, teams, spinIndex, opponents }
 }
@@ -116,7 +116,7 @@ function runPolicy(
   spinIndex: SpinIndex,
   teamMap: Map<string, TeamYear>,
   playerMap: Map<string, PlayerEntry[]>,
-  opponents: { regular: Opponent[]; intl: Opponent[] }
+  opponents: { regular: Opponent[]; msi: Opponent[]; worlds: Opponent[] }
 ): Map<Grade, number> {
   const gradeCount = new Map<Grade, number>()
 

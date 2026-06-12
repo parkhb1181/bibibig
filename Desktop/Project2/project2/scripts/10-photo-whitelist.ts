@@ -33,17 +33,25 @@ async function main() {
     return
   }
 
-  const resultsPath = path.join(process.cwd(), 'pipeline-cache', 'results.json')
-  if (!fs.existsSync(resultsPath)) {
-    throw new Error('results.json 없음 — 03-results.ts 먼저 실행')
+  // worlds-results.json 폴백: 03-results.ts가 Worlds 섹션 완료 직후 저장하는 중간 파일
+  const fullResultsPath = path.join(process.cwd(), 'pipeline-cache', 'results.json')
+  const worldsOnlyPath  = path.join(process.cwd(), 'pipeline-cache', 'worlds-results.json')
+  let resultsPath = fullResultsPath
+  if (!fs.existsSync(fullResultsPath)) {
+    if (fs.existsSync(worldsOnlyPath)) {
+      resultsPath = worldsOnlyPath
+      console.log('worlds-results.json 사용 (Worlds 전용 화이트리스트 — 국내 선수 미포함)')
+    } else {
+      throw new Error('results.json / worlds-results.json 없음 — 03-results.ts 먼저 실행')
+    }
   }
 
   const results: ResultEntry[] = JSON.parse(fs.readFileSync(resultsPath, 'utf-8'))
 
-  // 1. Worlds 2013~2024 Place <= 4 팀 추출 (2025는 미개최 → 제외)
-  const worldsTop4 = results.filter(r => r.leagueCode === 'WORLDS' && r.place <= 4 && r.year <= 2024)
+  // 1. Worlds 2013~2025 Place <= 4 팀 추출
+  const worldsTop4 = results.filter(r => r.leagueCode === 'WORLDS' && r.place <= 4 && r.year <= 2025)
 
-  console.log(`Worlds 상위 4팀 결과: ${worldsTop4.length}건 (2013~2024, ${new Set(worldsTop4.map(r => r.year)).size}개 연도)`)
+  console.log(`Worlds 상위 4팀 결과: ${worldsTop4.length}건 (2013~2025, ${new Set(worldsTop4.map(r => r.year)).size}개 연도)`)
 
   // 중복 제거된 (overviewPage, team) 목록
   type TourKey = string  // `${overviewPage}|${team}`

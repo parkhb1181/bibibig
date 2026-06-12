@@ -163,7 +163,7 @@ base = 60
 + Worlds 최종 순위: 우승 +15 / 결승 +10 / 4강 +7 / 8강 +4 / 진출 +2
 + 수상 보너스 (awards.csv): 시즌 MVP +6 / 파이널 MVP +4 / Worlds MVP +8
                             All-Pro 1st +5 / 2nd +3 / 3rd +1
-+ EDITORIAL ±1~5 (awards.csv value 컬럼 — 앵커 보정 전용, 최대 10건)
++ EDITORIAL ±1~5 (awards.csv value 컬럼 — 앵커 보정 전용, 최대 100건)
 cap 99 / floor 60
 ```
 

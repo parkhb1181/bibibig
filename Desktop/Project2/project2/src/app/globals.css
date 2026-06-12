@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Dark theme background — prevents overscroll/bottom white gap */
+html {
+  background-color: #0d0d1a;
+  min-height: 100%;
+  overscroll-behavior: none;
+}
+body {
+  background-color: #0d0d1a;
+  min-height: 100dvh;
+  overscroll-behavior: none;
+}
+
+/* WORLDS card shimmer sweep — for PlayerCard.tsx animate-[shimmer_...] */
+@keyframes shimmer {
+  0%   { transform: translateX(-120%) skewX(-12deg); }
+  100% { transform: translateX(220%)  skewX(-12deg); }
+}
+
+/* Scrollbar hide utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

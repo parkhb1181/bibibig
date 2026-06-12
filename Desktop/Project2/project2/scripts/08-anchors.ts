@@ -16,8 +16,8 @@ type Anchor = {
 
 // PRD §6.2 앵커 목표값 (D0 수기 계산 세션 전 초안 — 확정 후 갱신)
 const ANCHORS: Anchor[] = [
-  { label: 'Faker 2016', playerId: 'Faker', year: 2016, minOvr: 97, maxOvr: 99,
-    note: '전관왕 + 수상 싹쓸이 시대' },
+  { label: 'Faker 2015', playerId: 'Faker', year: 2015, minOvr: 97, maxOvr: 99,
+    note: '전성기 피크 — Worlds+MSI 동시 제패 (MaRin WORLDS_MVP, Faker FINALS_MVP Summer)' },
   { label: 'Faker 2013', playerId: 'Faker', year: 2013, minOvr: 90, maxOvr: 95,
     note: 'MSI·공식 Worlds MVP 제도 부재 — awards 큐레이션에 따라 93~95 목표' },
   { label: 'Canyon 2020', playerId: 'Canyon', year: 2020, minOvr: 92, maxOvr: 96,
@@ -71,8 +71,8 @@ function main() {
   // OVR 분포 히스토그램
   console.log('\n=== OVR 분포 ===')
   const bins = [
-    [60, 64], [65, 69], [70, 74], [75, 79],
-    [80, 84], [85, 89], [90, 94], [95, 99],
+    [75, 77], [78, 80], [81, 83], [84, 86],
+    [87, 89], [90, 92], [93, 95], [96, 98], [99, 99],
   ] as [number, number][]
 
   for (const [lo, hi] of bins) {

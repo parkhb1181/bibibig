@@ -1,0 +1,7524 @@
+[
+  {
+    "key": "sk-telecom-t1-2_2013",
+    "team": "SK Telecom T1 2",
+    "teamSlug": "sk-telecom-t1-2",
+    "year": 2013,
+    "league": "LCK",
+    "roster": [
+      "bengi_2013_sk-telecom-t1-2",
+      "faker_2013_sk-telecom-t1-2",
+      "impact_2013_sk-telecom-t1-2",
+      "piglet_2013_sk-telecom-t1-2",
+      "poohmandu_2013_sk-telecom-t1-2"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "najin-black-sword_2013",
+    "team": "NaJin Black Sword",
+    "teamSlug": "najin-black-sword",
+    "year": 2013,
+    "league": "LCK",
+    "roster": [
+      "cain_2013_najin-black-sword",
+      "expession_2013_najin-black-sword",
+      "pray_2013_najin-black-sword",
+      "ssong_2013_najin-black-sword",
+      "watch_2013_najin-black-sword"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "samsung-blue_2014",
+    "team": "Samsung Blue",
+    "teamSlug": "samsung-blue",
+    "year": 2014,
+    "league": "LCK",
+    "roster": [
+      "acorn_2014_samsung-blue",
+      "dade_2014_samsung-blue",
+      "deft_2014_samsung-blue",
+      "heart_2014_samsung-blue",
+      "spirit_2014_samsung-blue"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "najin-white-shield_2014",
+    "team": "NaJin White Shield",
+    "teamSlug": "najin-white-shield",
+    "year": 2014,
+    "league": "LCK",
+    "roster": [
+      "ggoong_2014_najin-white-shield",
+      "gorilla_2014_najin-white-shield",
+      "save_2014_najin-white-shield",
+      "watch_2014_najin-white-shield",
+      "zefa_2014_najin-white-shield"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "samsung-white_2014",
+    "team": "Samsung White",
+    "teamSlug": "samsung-white",
+    "year": 2014,
+    "league": "LCK",
+    "roster": [
+      "dandy_2014_samsung-white",
+      "imp_2014_samsung-white",
+      "looper_2014_samsung-white",
+      "mata_2014_samsung-white",
+      "pawn_2014_samsung-white"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "kt-rolster_2015",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2015,
+    "league": "LCK",
+    "roster": [
+      "arrow_2015_kt-rolster",
+      "fixer_2015_kt-rolster",
+      "nagne_2015_kt-rolster",
+      "score_2015_kt-rolster",
+      "ssumday_2015_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-telecom-t1_2015",
+    "team": "SK Telecom T1",
+    "teamSlug": "sk-telecom-t1",
+    "year": 2015,
+    "league": "LCK",
+    "roster": [
+      "bang_2015_sk-telecom-t1",
+      "bengi_2015_sk-telecom-t1",
+      "faker_2015_sk-telecom-t1",
+      "marin_2015_sk-telecom-t1",
+      "wolf-lee-jae-wan_2015_sk-telecom-t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "koo-tigers_2015",
+    "team": "KOO Tigers",
+    "teamSlug": "koo-tigers",
+    "year": 2015,
+    "league": "LCK",
+    "roster": [
+      "gorilla_2015_koo-tigers",
+      "hojin_2015_koo-tigers",
+      "kuro_2015_koo-tigers",
+      "pray_2015_koo-tigers",
+      "smeb_2015_koo-tigers"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "samsung-galaxy_2016",
+    "team": "Samsung Galaxy",
+    "teamSlug": "samsung-galaxy",
+    "year": 2016,
+    "league": "LCK",
+    "roster": [
+      "ambition_2016_samsung-galaxy",
+      "crown_2016_samsung-galaxy",
+      "cuvee_2016_samsung-galaxy",
+      "ruler_2016_samsung-galaxy",
+      "wraith_2016_samsung-galaxy"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-telecom-t1_2016",
+    "team": "SK Telecom T1",
+    "teamSlug": "sk-telecom-t1",
+    "year": 2016,
+    "league": "LCK",
+    "roster": [
+      "bang_2016_sk-telecom-t1",
+      "blank-kang-sun-gu_2016_sk-telecom-t1",
+      "duke-lee-ho-seong_2016_sk-telecom-t1",
+      "faker_2016_sk-telecom-t1",
+      "wolf-lee-jae-wan_2016_sk-telecom-t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "rox-tigers_2016",
+    "team": "ROX Tigers",
+    "teamSlug": "rox-tigers",
+    "year": 2016,
+    "league": "LCK",
+    "roster": [
+      "gorilla_2016_rox-tigers",
+      "kuro_2016_rox-tigers",
+      "peanut_2016_rox-tigers",
+      "pray_2016_rox-tigers",
+      "smeb_2016_rox-tigers"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "samsung-galaxy_2017",
+    "team": "Samsung Galaxy",
+    "teamSlug": "samsung-galaxy",
+    "year": 2017,
+    "league": "LCK",
+    "roster": [
+      "ambition_2017_samsung-galaxy",
+      "corejj_2017_samsung-galaxy",
+      "crown_2017_samsung-galaxy",
+      "cuvee_2017_samsung-galaxy",
+      "ruler_2017_samsung-galaxy"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "sk-telecom-t1_2017",
+    "team": "SK Telecom T1",
+    "teamSlug": "sk-telecom-t1",
+    "year": 2017,
+    "league": "LCK",
+    "roster": [
+      "bang_2017_sk-telecom-t1",
+      "faker_2017_sk-telecom-t1",
+      "huni_2017_sk-telecom-t1",
+      "peanut_2017_sk-telecom-t1",
+      "wolf-lee-jae-wan_2017_sk-telecom-t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "longzhu-gaming_2017",
+    "team": "Longzhu Gaming",
+    "teamSlug": "longzhu-gaming",
+    "year": 2017,
+    "league": "LCK",
+    "roster": [
+      "bdd_2017_longzhu-gaming",
+      "cuzz_2017_longzhu-gaming",
+      "gorilla_2017_longzhu-gaming",
+      "khan_2017_longzhu-gaming",
+      "pray_2017_longzhu-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "afreeca-freecs_2018",
+    "team": "Afreeca Freecs",
+    "teamSlug": "afreeca-freecs",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "kiin_2018_afreeca-freecs",
+      "kramer_2018_afreeca-freecs",
+      "kuro_2018_afreeca-freecs",
+      "spirit_2018_afreeca-freecs",
+      "tusin_2018_afreeca-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "ksv-esports_2018",
+    "team": "KSV eSports",
+    "teamSlug": "ksv-esports",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "ambition_2018_ksv-esports",
+      "corejj_2018_ksv-esports",
+      "crown_2018_ksv-esports",
+      "cuvee_2018_ksv-esports",
+      "ruler_2018_ksv-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "sk-telecom-t1_2018",
+    "team": "SK Telecom T1",
+    "teamSlug": "sk-telecom-t1",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "bang_2018_sk-telecom-t1",
+      "blank-kang-sun-gu_2018_sk-telecom-t1",
+      "effort_2018_sk-telecom-t1",
+      "faker_2018_sk-telecom-t1",
+      "thal_2018_sk-telecom-t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kingzone-dragonx_2018",
+    "team": "Kingzone DragonX",
+    "teamSlug": "kingzone-dragonx",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "bdd_2018_kingzone-dragonx",
+      "gorilla_2018_kingzone-dragonx",
+      "khan_2018_kingzone-dragonx",
+      "peanut_2018_kingzone-dragonx",
+      "pray_2018_kingzone-dragonx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "kt-rolster_2018",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "deft_2018_kt-rolster",
+      "mata_2018_kt-rolster",
+      "score_2018_kt-rolster",
+      "smeb_2018_kt-rolster",
+      "ucal_2018_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "gen-g_2018",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "ambition_2018_gen-g",
+      "corejj_2018_gen-g",
+      "cuvee_2018_gen-g",
+      "fly-song-yong-jun_2018_gen-g",
+      "ruler_2018_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "griffin-korean-team_2018",
+    "team": "Griffin (Korean Team)",
+    "teamSlug": "griffin-korean-team",
+    "year": 2018,
+    "league": "LCK",
+    "roster": [
+      "chovy_2018_griffin-korean-team",
+      "lehends_2018_griffin-korean-team",
+      "sword-choi-sung-won_2018_griffin-korean-team",
+      "tarzan-lee-seung-yong_2018_griffin-korean-team",
+      "viper-park-do-hyeon_2018_griffin-korean-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "afreeca-freecs_2019",
+    "team": "Afreeca Freecs",
+    "teamSlug": "afreeca-freecs",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "aiming_2019_afreeca-freecs",
+      "dread-lee-jin-hyeok_2019_afreeca-freecs",
+      "kiin_2019_afreeca-freecs",
+      "senan_2019_afreeca-freecs",
+      "ucal_2019_afreeca-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "damwon-gaming_2019",
+    "team": "DAMWON Gaming",
+    "teamSlug": "damwon-gaming",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "beryl_2019_damwon-gaming",
+      "canyon_2019_damwon-gaming",
+      "nuclear_2019_damwon-gaming",
+      "nuguri_2019_damwon-gaming",
+      "showmaker_2019_damwon-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "griffin-korean-team_2019",
+    "team": "Griffin (Korean Team)",
+    "teamSlug": "griffin-korean-team",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "chovy_2019_griffin-korean-team",
+      "lehends_2019_griffin-korean-team",
+      "sword-choi-sung-won_2019_griffin-korean-team",
+      "tarzan-lee-seung-yong_2019_griffin-korean-team",
+      "viper-park-do-hyeon_2019_griffin-korean-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-telecom-t1_2019",
+    "team": "SK Telecom T1",
+    "teamSlug": "sk-telecom-t1",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "clid_2019_sk-telecom-t1",
+      "faker_2019_sk-telecom-t1",
+      "khan_2019_sk-telecom-t1",
+      "mata_2019_sk-telecom-t1",
+      "teddy_2019_sk-telecom-t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sandbox-gaming_2019",
+    "team": "SANDBOX Gaming",
+    "teamSlug": "sandbox-gaming",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "dove_2019_sandbox-gaming",
+      "ghost-jang-yong-jun_2019_sandbox-gaming",
+      "joker-cho-jae-eup_2019_sandbox-gaming",
+      "onfleek_2019_sandbox-gaming",
+      "summit_2019_sandbox-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kingzone-dragonx_2019",
+    "team": "Kingzone DragonX",
+    "teamSlug": "kingzone-dragonx",
+    "year": 2019,
+    "league": "LCK",
+    "roster": [
+      "cuzz_2019_kingzone-dragonx",
+      "deft_2019_kingzone-dragonx",
+      "naehyun_2019_kingzone-dragonx",
+      "rascal_2019_kingzone-dragonx",
+      "tusin_2019_kingzone-dragonx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kt-rolster_2020",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "aiming_2020_kt-rolster",
+      "bono-kim-gi-beom_2020_kt-rolster",
+      "kuro_2020_kt-rolster",
+      "sohwan_2020_kt-rolster",
+      "tusin_2020_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "afreeca-freecs_2020",
+    "team": "Afreeca Freecs",
+    "teamSlug": "afreeca-freecs",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "ben_2020_afreeca-freecs",
+      "fly-song-yong-jun_2020_afreeca-freecs",
+      "kiin_2020_afreeca-freecs",
+      "mystic_2020_afreeca-freecs",
+      "spirit_2020_afreeca-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "gen-g_2020",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "bdd_2020_gen-g",
+      "clid_2020_gen-g",
+      "life_2020_gen-g",
+      "rascal_2020_gen-g",
+      "ruler_2020_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "damwon-gaming_2020",
+    "team": "DAMWON Gaming",
+    "teamSlug": "damwon-gaming",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "beryl_2020_damwon-gaming",
+      "canyon_2020_damwon-gaming",
+      "ghost-jang-yong-jun_2020_damwon-gaming",
+      "nuguri_2020_damwon-gaming",
+      "showmaker_2020_damwon-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "t1_2020",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "canna_2020_t1",
+      "cuzz_2020_t1",
+      "effort_2020_t1",
+      "faker_2020_t1",
+      "teddy_2020_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "dragonx_2020",
+    "team": "DragonX",
+    "teamSlug": "dragonx",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "chovy_2020_dragonx",
+      "deft_2020_dragonx",
+      "doran-choi-hyeon-joon_2020_dragonx",
+      "keria_2020_dragonx",
+      "pyosik_2020_dragonx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "drx_2020",
+    "team": "DRX",
+    "teamSlug": "drx",
+    "year": 2020,
+    "league": "LCK",
+    "roster": [
+      "chovy_2020_drx",
+      "deft_2020_drx",
+      "doran-choi-hyeon-joon_2020_drx",
+      "keria_2020_drx",
+      "pyosik_2020_drx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "hanwha-life-esports_2021",
+    "team": "Hanwha Life Esports",
+    "teamSlug": "hanwha-life-esports",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "arthur-park-mi-reu_2021_hanwha-life-esports",
+      "chovy_2021_hanwha-life-esports",
+      "deft_2021_hanwha-life-esports",
+      "morgan_2021_hanwha-life-esports",
+      "vsta_2021_hanwha-life-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "afreeca-freecs_2021",
+    "team": "Afreeca Freecs",
+    "teamSlug": "afreeca-freecs",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "dread-lee-jin-hyeok_2021_afreeca-freecs",
+      "fly-song-yong-jun_2021_afreeca-freecs",
+      "kiin_2021_afreeca-freecs",
+      "lehends_2021_afreeca-freecs",
+      "leo-han-gyeo-re_2021_afreeca-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "drx_2021",
+    "team": "DRX",
+    "teamSlug": "drx",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "bao-jeong-hyeon-woo_2021_drx",
+      "becca-son-min-woo_2021_drx",
+      "kingen_2021_drx",
+      "pyosik_2021_drx",
+      "solka_2021_drx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "nongshim-redforce_2021",
+    "team": "Nongshim RedForce",
+    "teamSlug": "nongshim-redforce",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "deokdam_2021_nongshim-redforce",
+      "gori_2021_nongshim-redforce",
+      "kellin_2021_nongshim-redforce",
+      "peanut_2021_nongshim-redforce",
+      "rich-lee-jae-won_2021_nongshim-redforce"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "gen-g_2021",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "bdd_2021_gen-g",
+      "clid_2021_gen-g",
+      "life_2021_gen-g",
+      "rascal_2021_gen-g",
+      "ruler_2021_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "dwg-kia_2021",
+    "team": "DWG KIA",
+    "teamSlug": "dwg-kia",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "beryl_2021_dwg-kia",
+      "canyon_2021_dwg-kia",
+      "ghost-jang-yong-jun_2021_dwg-kia",
+      "khan_2021_dwg-kia",
+      "showmaker_2021_dwg-kia"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "t1_2021",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "canna_2021_t1",
+      "cuzz_2021_t1",
+      "faker_2021_t1",
+      "keria_2021_t1",
+      "teddy_2021_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "liiv-sandbox_2021",
+    "team": "Liiv SANDBOX",
+    "teamSlug": "liiv-sandbox",
+    "year": 2021,
+    "league": "LCK",
+    "roster": [
+      "croco_2021_liiv-sandbox",
+      "effort_2021_liiv-sandbox",
+      "fate-yoo-su-hyeok_2021_liiv-sandbox",
+      "prince-lee-chae-hwan_2021_liiv-sandbox",
+      "summit_2021_liiv-sandbox"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kt-rolster_2022",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "aiming_2022_kt-rolster",
+      "cuzz_2022_kt-rolster",
+      "life_2022_kt-rolster",
+      "rascal_2022_kt-rolster",
+      "vicla_2022_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "drx_2022",
+    "team": "DRX",
+    "teamSlug": "drx",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "beryl_2022_drx",
+      "deft_2022_drx",
+      "kingen_2022_drx",
+      "pyosik_2022_drx",
+      "zeka-kim-geon-woo_2022_drx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "dwg-kia_2022",
+    "team": "DWG KIA",
+    "teamSlug": "dwg-kia",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "burdol_2022_dwg-kia",
+      "canyon_2022_dwg-kia",
+      "deokdam_2022_dwg-kia",
+      "kellin_2022_dwg-kia",
+      "showmaker_2022_dwg-kia"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "gen-g_2022",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "chovy_2022_gen-g",
+      "doran-choi-hyeon-joon_2022_gen-g",
+      "lehends_2022_gen-g",
+      "peanut_2022_gen-g",
+      "ruler_2022_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "liiv-sandbox_2022",
+    "team": "Liiv SANDBOX",
+    "teamSlug": "liiv-sandbox",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "clozer_2022_liiv-sandbox",
+      "croco_2022_liiv-sandbox",
+      "dove_2022_liiv-sandbox",
+      "kael-kim-jin-hong_2022_liiv-sandbox",
+      "prince-lee-chae-hwan_2022_liiv-sandbox"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fredit-brion_2022",
+    "team": "Fredit BRION",
+    "teamSlug": "fredit-brion",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "delight_2022_fredit-brion",
+      "hena_2022_fredit-brion",
+      "lava_2022_fredit-brion",
+      "morgan_2022_fredit-brion",
+      "umti_2022_fredit-brion"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kwangdong-freecs_2022",
+    "team": "Kwangdong Freecs",
+    "teamSlug": "kwangdong-freecs",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "ellim_2022_kwangdong-freecs",
+      "fate-yoo-su-hyeok_2022_kwangdong-freecs",
+      "hoit_2022_kwangdong-freecs",
+      "kiin_2022_kwangdong-freecs",
+      "teddy_2022_kwangdong-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "t1_2022",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2022,
+    "league": "LCK",
+    "roster": [
+      "faker_2022_t1",
+      "gumayusi_2022_t1",
+      "keria_2022_t1",
+      "oner_2022_t1",
+      "zeus_2022_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "kt-rolster_2023",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "aiming_2023_kt-rolster",
+      "bdd_2023_kt-rolster",
+      "cuzz_2023_kt-rolster",
+      "kiin_2023_kt-rolster",
+      "lehends_2023_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "drx_2023",
+    "team": "DRX",
+    "teamSlug": "drx",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "beryl_2023_drx",
+      "croco_2023_drx",
+      "fate-yoo-su-hyeok_2023_drx",
+      "paduck_2023_drx",
+      "rascal_2023_drx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "liiv-sandbox_2023",
+    "team": "Liiv SANDBOX",
+    "teamSlug": "liiv-sandbox",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "burdol_2023_liiv-sandbox",
+      "clozer_2023_liiv-sandbox",
+      "envyy_2023_liiv-sandbox",
+      "kael-kim-jin-hong_2023_liiv-sandbox",
+      "willer_2023_liiv-sandbox"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "dplus-kia_2023",
+    "team": "Dplus Kia",
+    "teamSlug": "dplus-kia",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "canna_2023_dplus-kia",
+      "canyon_2023_dplus-kia",
+      "deft_2023_dplus-kia",
+      "kellin_2023_dplus-kia",
+      "showmaker_2023_dplus-kia"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "gen-g_2023",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "chovy_2023_gen-g",
+      "delight_2023_gen-g",
+      "doran-choi-hyeon-joon_2023_gen-g",
+      "peanut_2023_gen-g",
+      "peyz_2023_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "hanwha-life-esports_2023",
+    "team": "Hanwha Life Esports",
+    "teamSlug": "hanwha-life-esports",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "clid_2023_hanwha-life-esports",
+      "kingen_2023_hanwha-life-esports",
+      "life_2023_hanwha-life-esports",
+      "viper-park-do-hyeon_2023_hanwha-life-esports",
+      "zeka-kim-geon-woo_2023_hanwha-life-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "t1_2023",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2023,
+    "league": "LCK",
+    "roster": [
+      "faker_2023_t1",
+      "gumayusi_2023_t1",
+      "keria_2023_t1",
+      "oner_2023_t1",
+      "zeus_2023_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "dplus-kia_2024",
+    "team": "Dplus Kia",
+    "teamSlug": "dplus-kia",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "aiming_2024_dplus-kia",
+      "kellin_2024_dplus-kia",
+      "kingen_2024_dplus-kia",
+      "lucid-choi-yong-hyeok_2024_dplus-kia",
+      "showmaker_2024_dplus-kia"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "kwangdong-freecs_2024",
+    "team": "Kwangdong Freecs",
+    "teamSlug": "kwangdong-freecs",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "andil_2024_kwangdong-freecs",
+      "bulldog-lee-tae-young_2024_kwangdong-freecs",
+      "cuzz_2024_kwangdong-freecs",
+      "dudu-lee-dong-ju_2024_kwangdong-freecs",
+      "leaper_2024_kwangdong-freecs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kt-rolster_2024",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "bdd_2024_kt-rolster",
+      "beryl_2024_kt-rolster",
+      "deft_2024_kt-rolster",
+      "perfect-lee-seung-min_2024_kt-rolster",
+      "pyosik_2024_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "gen-g_2024",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "canyon_2024_gen-g",
+      "chovy_2024_gen-g",
+      "kiin_2024_gen-g",
+      "lehends_2024_gen-g",
+      "peyz_2024_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "hanwha-life-esports_2024",
+    "team": "Hanwha Life Esports",
+    "teamSlug": "hanwha-life-esports",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "delight_2024_hanwha-life-esports",
+      "doran-choi-hyeon-joon_2024_hanwha-life-esports",
+      "peanut_2024_hanwha-life-esports",
+      "viper-park-do-hyeon_2024_hanwha-life-esports",
+      "zeka-kim-geon-woo_2024_hanwha-life-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "t1_2024",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "faker_2024_t1",
+      "gumayusi_2024_t1",
+      "keria_2024_t1",
+      "oner_2024_t1",
+      "zeus_2024_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "bnk-fearx_2024",
+    "team": "BNK FEARX",
+    "teamSlug": "bnk-fearx",
+    "year": 2024,
+    "league": "LCK",
+    "roster": [
+      "clear-song-hyeon-min_2024_bnk-fearx",
+      "clozer_2024_bnk-fearx",
+      "duro_2024_bnk-fearx",
+      "hena_2024_bnk-fearx",
+      "raptor-jeon-eo-jin_2024_bnk-fearx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "dplus-kia_2025",
+    "team": "Dplus Kia",
+    "teamSlug": "dplus-kia",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "aiming_2025_dplus-kia",
+      "beryl_2025_dplus-kia",
+      "lucid-choi-yong-hyeok_2025_dplus-kia",
+      "showmaker_2025_dplus-kia",
+      "siwoo_2025_dplus-kia"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "kt-rolster_2025",
+    "team": "KT Rolster",
+    "teamSlug": "kt-rolster",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "bdd_2025_kt-rolster",
+      "cuzz_2025_kt-rolster",
+      "deokdam_2025_kt-rolster",
+      "perfect-lee-seung-min_2025_kt-rolster",
+      "peter-jeong-yoon-su_2025_kt-rolster"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "nongshim-redforce_2025",
+    "team": "Nongshim RedForce",
+    "teamSlug": "nongshim-redforce",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "calix-syun-hyun-bin_2025_nongshim-redforce",
+      "gideon_2025_nongshim-redforce",
+      "jiwoo_2025_nongshim-redforce",
+      "kingen_2025_nongshim-redforce",
+      "lehends_2025_nongshim-redforce"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "gen-g_2025",
+    "team": "Gen.G",
+    "teamSlug": "gen-g",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "canyon_2025_gen-g",
+      "chovy_2025_gen-g",
+      "duro_2025_gen-g",
+      "kiin_2025_gen-g",
+      "ruler_2025_gen-g"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "hanwha-life-esports_2025",
+    "team": "Hanwha Life Esports",
+    "teamSlug": "hanwha-life-esports",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "delight_2025_hanwha-life-esports",
+      "peanut_2025_hanwha-life-esports",
+      "viper-park-do-hyeon_2025_hanwha-life-esports",
+      "zeka-kim-geon-woo_2025_hanwha-life-esports",
+      "zeus_2025_hanwha-life-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "t1_2025",
+    "team": "T1",
+    "teamSlug": "t1",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "doran-choi-hyeon-joon_2025_t1",
+      "faker_2025_t1",
+      "gumayusi_2025_t1",
+      "keria_2025_t1",
+      "oner_2025_t1"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "oksavingsbank-brion_2025",
+    "team": "OKSavingsBank BRION",
+    "teamSlug": "oksavingsbank-brion",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "clozer_2025_oksavingsbank-brion",
+      "croco_2025_oksavingsbank-brion",
+      "hype-byeon-jeong-hyeon_2025_oksavingsbank-brion",
+      "morgan_2025_oksavingsbank-brion",
+      "pollu_2025_oksavingsbank-brion"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "bnk-fearx_2025",
+    "team": "BNK FEARX",
+    "teamSlug": "bnk-fearx",
+    "year": 2025,
+    "league": "LCK",
+    "roster": [
+      "clear-song-hyeon-min_2025_bnk-fearx",
+      "diable_2025_bnk-fearx",
+      "kellin_2025_bnk-fearx",
+      "raptor-jeon-eo-jin_2025_bnk-fearx",
+      "vicla_2025_bnk-fearx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "royal-club_2013",
+    "team": "Royal Club",
+    "teamSlug": "royal-club",
+    "year": 2013,
+    "league": "LPL",
+    "roster": [
+      "godlike_2013_royal-club",
+      "lucky-liu-jun-jie_2013_royal-club",
+      "tabe_2013_royal-club",
+      "uzi-jian-zi-hao_2013_royal-club",
+      "wh1t3zz_2013_royal-club"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "oh-my-god_2013",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2013,
+    "league": "LPL",
+    "roster": [
+      "bigpomelo_2013_oh-my-god",
+      "cool_2013_oh-my-god",
+      "gogoing_2013_oh-my-god",
+      "lovelin_2013_oh-my-god",
+      "san-guo-jun-liang_2013_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "oh-my-god_2014",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2014,
+    "league": "LPL",
+    "roster": [
+      "allen-yin-le_2014_oh-my-god",
+      "cool_2014_oh-my-god",
+      "drug_2014_oh-my-god",
+      "gogoing_2014_oh-my-god",
+      "san-guo-jun-liang_2014_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2014",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2014,
+    "league": "LPL",
+    "roster": [
+      "clearlove_2014_edward-gaming",
+      "fzzf_2014_edward-gaming",
+      "koro1_2014_edward-gaming",
+      "namei_2014_edward-gaming",
+      "u_2014_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "star-horn-royal-club_2014",
+    "team": "Star Horn Royal Club",
+    "teamSlug": "star-horn-royal-club",
+    "year": 2014,
+    "league": "LPL",
+    "roster": [
+      "cola-jiang-nan_2014_star-horn-royal-club",
+      "corn-lei-wen_2014_star-horn-royal-club",
+      "insec_2014_star-horn-royal-club",
+      "uzi-jian-zi-hao_2014_star-horn-royal-club",
+      "zero-yoon-kyung-sup_2014_star-horn-royal-club"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "lgd-gaming_2015",
+    "team": "LGD Gaming",
+    "teamSlug": "lgd-gaming",
+    "year": 2015,
+    "league": "LPL",
+    "roster": [
+      "acorn_2015_lgd-gaming",
+      "godv-wei-zhen_2015_lgd-gaming",
+      "imp_2015_lgd-gaming",
+      "pyl-chen-bo_2015_lgd-gaming",
+      "tbq_2015_lgd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2015",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2015,
+    "league": "LPL",
+    "roster": [
+      "clearlove_2015_edward-gaming",
+      "deft_2015_edward-gaming",
+      "koro1_2015_edward-gaming",
+      "meiko_2015_edward-gaming",
+      "pawn_2015_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "invictus-gaming_2015",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2015,
+    "league": "LPL",
+    "roster": [
+      "kakao_2015_invictus-gaming",
+      "kid_2015_invictus-gaming",
+      "kitties_2015_invictus-gaming",
+      "rookie_2015_invictus-gaming",
+      "zzitai_2015_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2016",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2016,
+    "league": "LPL",
+    "roster": [
+      "clearlove_2016_edward-gaming",
+      "deft_2016_edward-gaming",
+      "meiko_2016_edward-gaming",
+      "mouse_2016_edward-gaming",
+      "scout_2016_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "royal-never-give-up_2016",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2016,
+    "league": "LPL",
+    "roster": [
+      "looper_2016_royal-never-give-up",
+      "mata_2016_royal-never-give-up",
+      "mlxg_2016_royal-never-give-up",
+      "uzi-jian-zi-hao_2016_royal-never-give-up",
+      "xiaohu_2016_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "i-may_2016",
+    "team": "I May",
+    "teamSlug": "i-may",
+    "year": 2016,
+    "league": "LPL",
+    "roster": [
+      "amazingj_2016_i-may",
+      "athena_2016_i-may",
+      "avoidless_2016_i-may",
+      "jinjiao_2016_i-may",
+      "road-yun-han-gil_2016_i-may"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-we_2017",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2017,
+    "league": "LPL",
+    "roster": [
+      "957_2017_team-we",
+      "ben_2017_team-we",
+      "condi_2017_team-we",
+      "mystic_2017_team-we",
+      "xiye_2017_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "royal-never-give-up_2017",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2017,
+    "league": "LPL",
+    "roster": [
+      "letme_2017_royal-never-give-up",
+      "ming-shi-sen-ming_2017_royal-never-give-up",
+      "mlxg_2017_royal-never-give-up",
+      "uzi-jian-zi-hao_2017_royal-never-give-up",
+      "xiaohu_2017_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2017",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2017,
+    "league": "LPL",
+    "roster": [
+      "fireloli_2017_edward-gaming",
+      "meiko_2017_edward-gaming",
+      "mouse_2017_edward-gaming",
+      "scout_2017_edward-gaming",
+      "zet_2017_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-we_2018",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "957_2018_team-we",
+      "celestial_2018_team-we",
+      "condi_2018_team-we",
+      "mystic_2018_team-we",
+      "xiye_2018_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2018",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "karsa_2018_royal-never-give-up",
+      "letme_2018_royal-never-give-up",
+      "ming-shi-sen-ming_2018_royal-never-give-up",
+      "uzi-jian-zi-hao_2018_royal-never-give-up",
+      "xiaohu_2018_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "bilibili-gaming_2018",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "amazingj_2018_bilibili-gaming",
+      "chieftain_2018_bilibili-gaming",
+      "jinjiao_2018_bilibili-gaming",
+      "mole_2018_bilibili-gaming",
+      "road-yun-han-gil_2018_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "invictus-gaming_2018",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "baolan_2018_invictus-gaming",
+      "jackeylove_2018_invictus-gaming",
+      "ning_2018_invictus-gaming",
+      "rookie_2018_invictus-gaming",
+      "theshy_2018_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "funplus-phoenix_2018",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "cool_2018_funplus-phoenix",
+      "crisp_2018_funplus-phoenix",
+      "gimgoon_2018_funplus-phoenix",
+      "lwx_2018_funplus-phoenix",
+      "pepper-hu-zhi-wei_2018_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "topsports-gaming_2018",
+    "team": "Topsports Gaming",
+    "teamSlug": "topsports-gaming",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "cat-wu-yao_2018_topsports-gaming",
+      "ggoong_2018_topsports-gaming",
+      "moyu_2018_topsports-gaming",
+      "qiuqiu-zhang-ming_2018_topsports-gaming",
+      "xx-xiong-yu-long_2018_topsports-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "edward-gaming_2018",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "haro_2018_edward-gaming",
+      "iboy_2018_edward-gaming",
+      "meiko_2018_edward-gaming",
+      "ray_2018_edward-gaming",
+      "scout_2018_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "jd-gaming_2018",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "clid_2018_jd-gaming",
+      "loken_2018_jd-gaming",
+      "lvmao_2018_jd-gaming",
+      "yagao_2018_jd-gaming",
+      "zoom_2018_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rogue-warriors_2018",
+    "team": "Rogue Warriors",
+    "teamSlug": "rogue-warriors",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "doinb_2018_rogue-warriors",
+      "flawless_2018_rogue-warriors",
+      "killua_2018_rogue-warriors",
+      "mouse_2018_rogue-warriors",
+      "smlz_2018_rogue-warriors"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "snake-esports_2018",
+    "team": "Snake Esports",
+    "teamSlug": "snake-esports",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "flandre_2018_snake-esports",
+      "guoguo_2018_snake-esports",
+      "hudie_2018_snake-esports",
+      "kryst4l_2018_snake-esports",
+      "sofm_2018_snake-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "suning_2018",
+    "team": "Suning",
+    "teamSlug": "suning",
+    "year": 2018,
+    "league": "LPL",
+    "roster": [
+      "fury-lee-jin-yong_2018_suning",
+      "h4cker_2018_suning",
+      "knight-zhuo-ding_2018_suning",
+      "xiaoal_2018_suning",
+      "yoon_2018_suning"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "topsports-gaming_2019",
+    "team": "Topsports Gaming",
+    "teamSlug": "topsports-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "369_2019_topsports-gaming",
+      "ben_2019_topsports-gaming",
+      "knight9_2019_topsports-gaming",
+      "loken_2019_topsports-gaming",
+      "xx-xiong-yu-long_2019_topsports-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2019",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "karsa_2019_royal-never-give-up",
+      "langx_2019_royal-never-give-up",
+      "ming-shi-sen-ming_2019_royal-never-give-up",
+      "uzi-jian-zi-hao_2019_royal-never-give-up",
+      "xiaohu_2019_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "suning_2019",
+    "team": "Suning",
+    "teamSlug": "suning",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "maple-huang-yi-tang_2019_suning",
+      "smlz_2019_suning",
+      "swordart_2019_suning",
+      "weiwei_2019_suning",
+      "xiaoal_2019_suning"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "invictus-gaming_2019",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "baolan_2019_invictus-gaming",
+      "jackeylove_2019_invictus-gaming",
+      "ning_2019_invictus-gaming",
+      "rookie_2019_invictus-gaming",
+      "theshy_2019_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-we_2019",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "beishang_2019_team-we",
+      "missing_2019_team-we",
+      "mystic_2019_team-we",
+      "poss_2019_team-we",
+      "xiye_2019_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "jd-gaming_2019",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "flawless_2019_jd-gaming",
+      "imp_2019_jd-gaming",
+      "lvmao_2019_jd-gaming",
+      "yagao_2019_jd-gaming",
+      "zoom_2019_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "sinodragon-gaming_2019",
+    "team": "SinoDragon Gaming",
+    "teamSlug": "sinodragon-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "changhong_2019_sinodragon-gaming",
+      "gala_2019_sinodragon-gaming",
+      "mark-ling-xu_2019_sinodragon-gaming",
+      "twila_2019_sinodragon-gaming",
+      "xiaopeng_2019_sinodragon-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "edward-gaming_2019",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "iboy_2019_edward-gaming",
+      "jiejie_2019_edward-gaming",
+      "jinoo_2019_edward-gaming",
+      "meiko_2019_edward-gaming",
+      "scout_2019_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "funplus-phoenix_2019",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "crisp_2019_funplus-phoenix",
+      "doinb_2019_funplus-phoenix",
+      "gimgoon_2019_funplus-phoenix",
+      "lwx_2019_funplus-phoenix",
+      "tian_2019_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "bilibili-gaming_2019",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "jinjiao_2019_bilibili-gaming",
+      "kuro_2019_bilibili-gaming",
+      "meteor_2019_bilibili-gaming",
+      "xinmo_2019_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2019",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "369_2019_top-esports",
+      "ben_2019_top-esports",
+      "knight9_2019_top-esports",
+      "loken_2019_top-esports",
+      "xx-xiong-yu-long_2019_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lng-esports_2019",
+    "team": "LNG Esports",
+    "teamSlug": "lng-esports",
+    "year": 2019,
+    "league": "LPL",
+    "roster": [
+      "asura-lu-qi_2019_lng-esports",
+      "duan_2019_lng-esports",
+      "flandre_2019_lng-esports",
+      "plex-bae-ho-young_2019_lng-esports",
+      "sofm_2019_lng-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2020",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "369_2020_top-esports",
+      "jackeylove_2020_top-esports",
+      "karsa_2020_top-esports",
+      "knight-zhuo-ding_2020_top-esports",
+      "yuyanjia_2020_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "jd-gaming_2020",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "kanavi_2020_jd-gaming",
+      "loken_2020_jd-gaming",
+      "lvmao_2020_jd-gaming",
+      "yagao_2020_jd-gaming",
+      "zoom_2020_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "victory-five_2020",
+    "team": "Victory Five",
+    "teamSlug": "victory-five",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "biubiu_2020_victory-five",
+      "mole_2020_victory-five",
+      "ppgod_2020_victory-five",
+      "samd_2020_victory-five",
+      "weiwei_2020_victory-five"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "suning_2020",
+    "team": "Suning",
+    "teamSlug": "suning",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "angel-xiang-tao_2020_suning",
+      "bin-chen-ze-bin_2020_suning",
+      "huanfeng_2020_suning",
+      "sofm_2020_suning",
+      "swordart_2020_suning"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2020",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "aodi_2020_edward-gaming",
+      "hope-wang-jie_2020_edward-gaming",
+      "junjia_2020_edward-gaming",
+      "meiko_2020_edward-gaming",
+      "scout_2020_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-we_2020",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "beishang_2020_team-we",
+      "jiumeng_2020_team-we",
+      "missing_2020_team-we",
+      "morgan_2020_team-we",
+      "teacherma_2020_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2020",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "betty_2020_royal-never-give-up",
+      "langx_2020_royal-never-give-up",
+      "ming-shi-sen-ming_2020_royal-never-give-up",
+      "xiaohu_2020_royal-never-give-up",
+      "xlb_2020_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lgd-gaming_2020",
+    "team": "LGD Gaming",
+    "teamSlug": "lgd-gaming",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "kramer_2020_lgd-gaming",
+      "langx_2020_lgd-gaming",
+      "mark-ling-xu_2020_lgd-gaming",
+      "peanut_2020_lgd-gaming",
+      "xiye_2020_lgd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "funplus-phoenix_2020",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "crisp_2020_funplus-phoenix",
+      "doinb_2020_funplus-phoenix",
+      "gimgoon_2020_funplus-phoenix",
+      "lwx_2020_funplus-phoenix",
+      "tian_2020_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "estar-chinese-team_2020",
+    "team": "eStar (Chinese Team)",
+    "teamSlug": "estar-chinese-team",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "cryin_2020_estar-chinese-team",
+      "shiauc_2020_estar-chinese-team",
+      "wei-yan-yang-wei_2020_estar-chinese-team",
+      "wink_2020_estar-chinese-team",
+      "xiaobai_2020_estar-chinese-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "invictus-gaming_2020",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2020,
+    "league": "LPL",
+    "roster": [
+      "ning_2020_invictus-gaming",
+      "puff-ding-wang_2020_invictus-gaming",
+      "rookie_2020_invictus-gaming",
+      "southwind_2020_invictus-gaming",
+      "theshy_2020_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2021",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "369_2021_top-esports",
+      "jackeylove_2021_top-esports",
+      "karsa_2021_top-esports",
+      "knight-zhuo-ding_2021_top-esports",
+      "zhuo_2021_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "bilibili-gaming_2021",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "aiming_2021_bilibili-gaming",
+      "biubiu_2021_bilibili-gaming",
+      "ppgod_2021_bilibili-gaming",
+      "weiwei_2021_bilibili-gaming",
+      "zeka-kim-geon-woo_2021_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rare-atom_2021",
+    "team": "Rare Atom",
+    "teamSlug": "rare-atom",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "cube-dai-yi_2021_rare-atom",
+      "fofo_2021_rare-atom",
+      "hang_2021_rare-atom",
+      "iboy_2021_rare-atom",
+      "leyan_2021_rare-atom"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "oh-my-god_2021",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "able_2021_oh-my-god",
+      "aki-mao-an_2021_oh-my-god",
+      "cold_2021_oh-my-god",
+      "creme_2021_oh-my-god",
+      "new_2021_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lng-esports_2021",
+    "team": "LNG Esports",
+    "teamSlug": "lng-esports",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "ale_2021_lng-esports",
+      "icon_2021_lng-esports",
+      "iwandy_2021_lng-esports",
+      "light-wang-guang-yu_2021_lng-esports",
+      "tarzan-lee-seung-yong_2021_lng-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "suning_2021",
+    "team": "Suning",
+    "teamSlug": "suning",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "angel-xiang-tao_2021_suning",
+      "bin-chen-ze-bin_2021_suning",
+      "huanfeng_2021_suning",
+      "on_2021_suning",
+      "sofm_2021_suning"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "invictus-gaming_2021",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "lucas-li-tan-pan-ao_2021_invictus-gaming",
+      "rookie_2021_invictus-gaming",
+      "theshy_2021_invictus-gaming",
+      "wink_2021_invictus-gaming",
+      "xun_2021_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "funplus-phoenix_2021",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "crisp_2021_funplus-phoenix",
+      "doinb_2021_funplus-phoenix",
+      "lwx_2021_funplus-phoenix",
+      "nuguri_2021_funplus-phoenix",
+      "tian_2021_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-we_2021",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "beishang_2021_team-we",
+      "breathe_2021_team-we",
+      "elk_2021_team-we",
+      "missing_2021_team-we",
+      "shanks_2021_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2021",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "cryin_2021_royal-never-give-up",
+      "gala_2021_royal-never-give-up",
+      "ming-shi-sen-ming_2021_royal-never-give-up",
+      "wei-yan-yang-wei_2021_royal-never-give-up",
+      "xiaohu_2021_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2021",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "flandre_2021_edward-gaming",
+      "jiejie_2021_edward-gaming",
+      "meiko_2021_edward-gaming",
+      "scout_2021_edward-gaming",
+      "viper-park-do-hyeon_2021_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 8
+  },
+  {
+    "key": "jd-gaming_2021",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2021,
+    "league": "LPL",
+    "roster": [
+      "kanavi_2021_jd-gaming",
+      "loken_2021_jd-gaming",
+      "lvmao_2021_jd-gaming",
+      "yagao_2021_jd-gaming",
+      "zoom_2021_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "jd-gaming_2022",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "369_2022_jd-gaming",
+      "hope-wang-jie_2022_jd-gaming",
+      "kanavi_2022_jd-gaming",
+      "missing_2022_jd-gaming",
+      "yagao_2022_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "oh-my-god_2022",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "able_2022_oh-my-god",
+      "aki-mao-an_2022_oh-my-god",
+      "cold_2022_oh-my-god",
+      "creme_2022_oh-my-god",
+      "shanji_2022_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lng-esports_2022",
+    "team": "LNG Esports",
+    "teamSlug": "lng-esports",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "ale_2022_lng-esports",
+      "doinb_2022_lng-esports",
+      "light-wang-guang-yu_2022_lng-esports",
+      "lvmao_2022_lng-esports",
+      "tarzan-lee-seung-yong_2022_lng-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "weibo-gaming_2022",
+    "team": "Weibo Gaming",
+    "teamSlug": "weibo-gaming",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "angel-xiang-tao_2022_weibo-gaming",
+      "huanfeng_2022_weibo-gaming",
+      "on_2022_weibo-gaming",
+      "sofm_2022_weibo-gaming",
+      "theshy_2022_weibo-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "funplus-phoenix_2022",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "care_2022_funplus-phoenix",
+      "clid_2022_funplus-phoenix",
+      "hang_2022_funplus-phoenix",
+      "lwx_2022_funplus-phoenix",
+      "xiaolaohu_2022_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2022",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "bin-chen-ze-bin_2022_royal-never-give-up",
+      "gala_2022_royal-never-give-up",
+      "ming-shi-sen-ming_2022_royal-never-give-up",
+      "wei-yan-yang-wei_2022_royal-never-give-up",
+      "xiaohu_2022_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "bilibili-gaming_2022",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "breathe_2022_bilibili-gaming",
+      "crisp_2022_bilibili-gaming",
+      "doggo_2022_bilibili-gaming",
+      "fofo_2022_bilibili-gaming",
+      "weiwei_2022_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rare-atom_2022",
+    "team": "Rare Atom",
+    "teamSlug": "rare-atom",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "cube-dai-yi_2022_rare-atom",
+      "iboy_2022_rare-atom",
+      "leyan_2022_rare-atom",
+      "strive_2022_rare-atom",
+      "yuyanjia_2022_rare-atom"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "edward-gaming_2022",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "flandre_2022_edward-gaming",
+      "jiejie_2022_edward-gaming",
+      "meiko_2022_edward-gaming",
+      "scout_2022_edward-gaming",
+      "viper-park-do-hyeon_2022_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "victory-five_2022",
+    "team": "Victory Five",
+    "teamSlug": "victory-five",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "karsa_2022_victory-five",
+      "photic_2022_victory-five",
+      "ppgod_2022_victory-five",
+      "rich-lee-jae-won_2022_victory-five",
+      "rookie_2022_victory-five"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2022",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2022,
+    "league": "LPL",
+    "roster": [
+      "jackeylove_2022_top-esports",
+      "knight-zhuo-ding_2022_top-esports",
+      "mark-ling-xu_2022_top-esports",
+      "tian_2022_top-esports",
+      "wayward_2022_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "jd-gaming_2023",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "369_2023_jd-gaming",
+      "kanavi_2023_jd-gaming",
+      "knight-zhuo-ding_2023_jd-gaming",
+      "missing_2023_jd-gaming",
+      "ruler_2023_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "oh-my-god_2023",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "able_2023_oh-my-god",
+      "aki-mao-an_2023_oh-my-god",
+      "creme_2023_oh-my-god",
+      "ppgod_2023_oh-my-god",
+      "shanji_2023_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "edward-gaming_2023",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "ale_2023_edward-gaming",
+      "fofo_2023_edward-gaming",
+      "jiejie_2023_edward-gaming",
+      "leave_2023_edward-gaming",
+      "meiko_2023_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "royal-never-give-up_2023",
+    "team": "Royal Never Give Up",
+    "teamSlug": "royal-never-give-up",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "breathe_2023_royal-never-give-up",
+      "gala_2023_royal-never-give-up",
+      "lvmao_2023_royal-never-give-up",
+      "tangyuan_2023_royal-never-give-up",
+      "wei-yan-yang-wei_2023_royal-never-give-up"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "thundertalk-gaming_2023",
+    "team": "ThunderTalk Gaming",
+    "teamSlug": "thundertalk-gaming",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "beichuan_2023_thundertalk-gaming",
+      "hoya_2023_thundertalk-gaming",
+      "huanfeng_2023_thundertalk-gaming",
+      "ucal_2023_thundertalk-gaming",
+      "yaoyao_2023_thundertalk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "bilibili-gaming_2023",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "bin-chen-ze-bin_2023_bilibili-gaming",
+      "elk_2023_bilibili-gaming",
+      "on_2023_bilibili-gaming",
+      "xun_2023_bilibili-gaming",
+      "yagao_2023_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-we_2023",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "biubiu_2023_team-we",
+      "heng_2023_team-we",
+      "hope-wang-jie_2023_team-we",
+      "iwandy_2023_team-we",
+      "shanks_2023_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "weibo-gaming_2023",
+    "team": "Weibo Gaming",
+    "teamSlug": "weibo-gaming",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "crisp_2023_weibo-gaming",
+      "light-wang-guang-yu_2023_weibo-gaming",
+      "theshy_2023_weibo-gaming",
+      "weiwei_2023_weibo-gaming",
+      "xiaohu_2023_weibo-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "ninjas-in-pyjamas-cn_2023",
+    "team": "Ninjas in Pyjamas.CN",
+    "teamSlug": "ninjas-in-pyjamas-cn",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "angel-xiang-tao_2023_ninjas-in-pyjamas-cn",
+      "invincible_2023_ninjas-in-pyjamas-cn",
+      "photic_2023_ninjas-in-pyjamas-cn",
+      "shad0w_2023_ninjas-in-pyjamas-cn",
+      "zhuo_2023_ninjas-in-pyjamas-cn"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lng-esports_2023",
+    "team": "LNG Esports",
+    "teamSlug": "lng-esports",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "gala_2023_lng-esports",
+      "hang_2023_lng-esports",
+      "scout_2023_lng-esports",
+      "tarzan-lee-seung-yong_2023_lng-esports",
+      "zika_2023_lng-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "top-esports_2023",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2023,
+    "league": "LPL",
+    "roster": [
+      "jackeylove_2023_top-esports",
+      "mark-ling-xu_2023_top-esports",
+      "rookie_2023_top-esports",
+      "tian_2023_top-esports",
+      "wayward_2023_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "thundertalk-gaming_2024",
+    "team": "ThunderTalk Gaming",
+    "teamSlug": "thundertalk-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "1xn_2024_thundertalk-gaming",
+      "beichuan_2024_thundertalk-gaming",
+      "hoya_2024_thundertalk-gaming",
+      "qiuqiu-zhang-ming_2024_thundertalk-gaming",
+      "ucal_2024_thundertalk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2024",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "369_2024_top-esports",
+      "creme_2024_top-esports",
+      "jackeylove_2024_top-esports",
+      "meiko_2024_top-esports",
+      "tian_2024_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "oh-my-god_2024",
+    "team": "Oh My God",
+    "teamSlug": "oh-my-god",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "angel-xiang-tao_2024_oh-my-god",
+      "cube-dai-yi_2024_oh-my-god",
+      "ppgod_2024_oh-my-god",
+      "starry_2024_oh-my-god",
+      "xiaofang_2024_oh-my-god"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "invictus-gaming_2024",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "ahn-an-shan-ye_2024_invictus-gaming",
+      "cryin_2024_invictus-gaming",
+      "glfs_2024_invictus-gaming",
+      "wink_2024_invictus-gaming",
+      "yskm_2024_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "ninjas-in-pyjamas-cn_2024",
+    "team": "Ninjas in Pyjamas.CN",
+    "teamSlug": "ninjas-in-pyjamas-cn",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "aki-mao-an_2024_ninjas-in-pyjamas-cn",
+      "photic_2024_ninjas-in-pyjamas-cn",
+      "rookie_2024_ninjas-in-pyjamas-cn",
+      "shanji_2024_ninjas-in-pyjamas-cn",
+      "zhuo_2024_ninjas-in-pyjamas-cn"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rare-atom_2024",
+    "team": "Rare Atom",
+    "teamSlug": "rare-atom",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "assum_2024_rare-atom",
+      "jwei_2024_rare-atom",
+      "naiyou_2024_rare-atom",
+      "vicla_2024_rare-atom",
+      "xiaoxu_2024_rare-atom"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "bilibili-gaming_2024",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "bin-chen-ze-bin_2024_bilibili-gaming",
+      "elk_2024_bilibili-gaming",
+      "knight-zhuo-ding_2024_bilibili-gaming",
+      "on_2024_bilibili-gaming",
+      "xun_2024_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "lgd-gaming_2024",
+    "team": "LGD Gaming",
+    "teamSlug": "lgd-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "burdol_2024_lgd-gaming",
+      "haichao_2024_lgd-gaming",
+      "jinjiao_2024_lgd-gaming",
+      "meteor_2024_lgd-gaming",
+      "shaoye_2024_lgd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "funplus-phoenix_2024",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "care_2024_funplus-phoenix",
+      "deokdam_2024_funplus-phoenix",
+      "life_2024_funplus-phoenix",
+      "milkyway_2024_funplus-phoenix",
+      "xiaolaohu_2024_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "weibo-gaming_2024",
+    "team": "Weibo Gaming",
+    "teamSlug": "weibo-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "breathe_2024_weibo-gaming",
+      "crisp_2024_weibo-gaming",
+      "light-wang-guang-yu_2024_weibo-gaming",
+      "tarzan-lee-seung-yong_2024_weibo-gaming",
+      "xiaohu_2024_weibo-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "anyone-s-legend_2024",
+    "team": "Anyone's Legend",
+    "teamSlug": "anyone-s-legend",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "ale_2024_anyone-s-legend",
+      "croco_2024_anyone-s-legend",
+      "hope-wang-jie_2024_anyone-s-legend",
+      "kael-kim-jin-hong_2024_anyone-s-legend",
+      "shanks_2024_anyone-s-legend"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "jd-gaming_2024",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "flandre_2024_jd-gaming",
+      "kanavi_2024_jd-gaming",
+      "missing_2024_jd-gaming",
+      "ruler_2024_jd-gaming",
+      "yagao_2024_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-we_2024",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "fofo_2024_team-we",
+      "heng_2024_team-we",
+      "iwandy_2024_team-we",
+      "stay-guo-yi-yang_2024_team-we",
+      "wayward_2024_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lng-esports_2024",
+    "team": "LNG Esports",
+    "teamSlug": "lng-esports",
+    "year": 2024,
+    "league": "LPL",
+    "roster": [
+      "gala_2024_lng-esports",
+      "hang_2024_lng-esports",
+      "scout_2024_lng-esports",
+      "weiwei_2024_lng-esports",
+      "zika_2024_lng-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "ultra-prime_2025",
+    "team": "Ultra Prime",
+    "teamSlug": "ultra-prime",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "1jiang_2025_ultra-prime",
+      "junhao_2025_ultra-prime",
+      "saber-song-dai-lin_2025_ultra-prime",
+      "wako_2025_ultra-prime",
+      "xiaoxia_2025_ultra-prime"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "top-esports_2025",
+    "team": "Top Esports",
+    "teamSlug": "top-esports",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "369_2025_top-esports",
+      "creme_2025_top-esports",
+      "crisp_2025_top-esports",
+      "jackeylove_2025_top-esports",
+      "kanavi_2025_top-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "edward-gaming_2025",
+    "team": "EDward Gaming",
+    "teamSlug": "edward-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "ahn-an-shan-ye_2025_edward-gaming",
+      "angel-xiang-tao_2025_edward-gaming",
+      "parukia_2025_edward-gaming",
+      "xiaohao_2025_edward-gaming",
+      "zdz_2025_edward-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "bilibili-gaming_2025",
+    "team": "Bilibili Gaming",
+    "teamSlug": "bilibili-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "beichuan_2025_bilibili-gaming",
+      "bin-chen-ze-bin_2025_bilibili-gaming",
+      "elk_2025_bilibili-gaming",
+      "knight-zhuo-ding_2025_bilibili-gaming",
+      "on_2025_bilibili-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "weibo-gaming_2025",
+    "team": "Weibo Gaming",
+    "teamSlug": "weibo-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "breathe_2025_weibo-gaming",
+      "crisp_2025_weibo-gaming",
+      "light-wang-guang-yu_2025_weibo-gaming",
+      "tian_2025_weibo-gaming",
+      "xiaohu_2025_weibo-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "funplus-phoenix_2025",
+    "team": "FunPlus Phoenix",
+    "teamSlug": "funplus-phoenix",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "assum_2025_funplus-phoenix",
+      "care_2025_funplus-phoenix",
+      "jwei_2025_funplus-phoenix",
+      "shad0w_2025_funplus-phoenix",
+      "sheer_2025_funplus-phoenix"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "lgd-gaming_2025",
+    "team": "LGD Gaming",
+    "teamSlug": "lgd-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "climber_2025_lgd-gaming",
+      "sasi-yan-rui_2025_lgd-gaming",
+      "shaoye_2025_lgd-gaming",
+      "xqw_2025_lgd-gaming",
+      "ycx_2025_lgd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-we_2025",
+    "team": "Team WE",
+    "teamSlug": "team-we",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "cube-dai-yi_2025_team-we",
+      "karis_2025_team-we",
+      "monki_2025_team-we",
+      "taeyoon-kim-tae-yoon_2025_team-we",
+      "vampire_2025_team-we"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "ninjas-in-pyjamas-cn_2025",
+    "team": "Ninjas in Pyjamas.CN",
+    "teamSlug": "ninjas-in-pyjamas-cn",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "aki-mao-an_2025_ninjas-in-pyjamas-cn",
+      "doinb_2025_ninjas-in-pyjamas-cn",
+      "leave_2025_ninjas-in-pyjamas-cn",
+      "ppgod_2025_ninjas-in-pyjamas-cn",
+      "solokill_2025_ninjas-in-pyjamas-cn"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "anyone-s-legend_2025",
+    "team": "Anyone's Legend",
+    "teamSlug": "anyone-s-legend",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "flandre_2025_anyone-s-legend",
+      "hope-wang-jie_2025_anyone-s-legend",
+      "kael-kim-jin-hong_2025_anyone-s-legend",
+      "shanks_2025_anyone-s-legend",
+      "tarzan-lee-seung-yong_2025_anyone-s-legend"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "invictus-gaming_2025",
+    "team": "Invictus Gaming",
+    "teamSlug": "invictus-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "gala_2025_invictus-gaming",
+      "jiejie_2025_invictus-gaming",
+      "meiko_2025_invictus-gaming",
+      "rookie_2025_invictus-gaming",
+      "theshy_2025_invictus-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "jd-gaming_2025",
+    "team": "JD Gaming",
+    "teamSlug": "jd-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "ale_2025_jd-gaming",
+      "missing_2025_jd-gaming",
+      "peyz_2025_jd-gaming",
+      "scout_2025_jd-gaming",
+      "xun_2025_jd-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "thundertalk-gaming_2025",
+    "team": "ThunderTalk Gaming",
+    "teamSlug": "thundertalk-gaming",
+    "year": 2025,
+    "league": "LPL",
+    "roster": [
+      "1xn_2025_thundertalk-gaming",
+      "beichuan_2025_thundertalk-gaming",
+      "feather_2025_thundertalk-gaming",
+      "hoya_2025_thundertalk-gaming",
+      "setab_2025_thundertalk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "gambit-gaming_2013",
+    "team": "Gambit Gaming",
+    "teamSlug": "gambit-gaming",
+    "year": 2013,
+    "league": "LEC",
+    "roster": [
+      "alex-ich_2013_gambit-gaming",
+      "darien_2013_gambit-gaming",
+      "diamondprox_2013_gambit-gaming",
+      "genja_2013_gambit-gaming",
+      "voidle_2013_gambit-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fnatic_2013",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2013,
+    "league": "LEC",
+    "roster": [
+      "cyanide_2013_fnatic",
+      "nrated_2013_fnatic",
+      "soaz_2013_fnatic",
+      "xpeke_2013_fnatic",
+      "yellowstar_2013_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "lemondogs_2013",
+    "team": "Lemondogs",
+    "teamSlug": "lemondogs",
+    "year": 2013,
+    "league": "LEC",
+    "roster": [
+      "dexter_2013_lemondogs",
+      "mithy_2013_lemondogs",
+      "nukeduck_2013_lemondogs",
+      "tabzz_2013_lemondogs",
+      "zorozero_2013_lemondogs"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-gaming_2014",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2014,
+    "league": "LEC",
+    "roster": [
+      "candypanda_2014_sk-gaming",
+      "fredy122_2014_sk-gaming",
+      "jesiz_2014_sk-gaming",
+      "nrated_2014_sk-gaming",
+      "svenskeren_2014_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fnatic_2014",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2014,
+    "league": "LEC",
+    "roster": [
+      "cyanide_2014_fnatic",
+      "rekkles_2014_fnatic",
+      "soaz_2014_fnatic",
+      "xpeke_2014_fnatic",
+      "yellowstar_2014_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "alliance_2014",
+    "team": "Alliance",
+    "teamSlug": "alliance",
+    "year": 2014,
+    "league": "LEC",
+    "roster": [
+      "froggen_2014_alliance",
+      "nyph_2014_alliance",
+      "shook_2014_alliance",
+      "tabzz_2014_alliance",
+      "wickd_2014_alliance"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fnatic_2015",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2015,
+    "league": "LEC",
+    "roster": [
+      "febiven_2015_fnatic",
+      "huni_2015_fnatic",
+      "reignover_2015_fnatic",
+      "steeelback_2015_fnatic",
+      "yellowstar_2015_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "h2k-gaming_2015",
+    "team": "H2k-Gaming",
+    "teamSlug": "h2k-gaming",
+    "year": 2015,
+    "league": "LEC",
+    "roster": [
+      "hjarnan_2015_h2k-gaming",
+      "kasing_2015_h2k-gaming",
+      "loulex_2015_h2k-gaming",
+      "odoamne_2015_h2k-gaming",
+      "ryu_2015_h2k-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "origen_2015",
+    "team": "Origen",
+    "teamSlug": "origen",
+    "year": 2015,
+    "league": "LEC",
+    "roster": [
+      "amazing-maurice-st-ckenschneider_2015_origen",
+      "mithy_2015_origen",
+      "niels_2015_origen",
+      "soaz_2015_origen",
+      "xpeke_2015_origen"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2016",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2016,
+    "league": "LEC",
+    "roster": [
+      "expect_2016_g2-esports",
+      "mithy_2016_g2-esports",
+      "perkz_2016_g2-esports",
+      "trick_2016_g2-esports",
+      "zven_2016_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "h2k-gaming_2016",
+    "team": "H2k-Gaming",
+    "teamSlug": "h2k-gaming",
+    "year": 2016,
+    "league": "LEC",
+    "roster": [
+      "freeze_2016_h2k-gaming",
+      "jankos_2016_h2k-gaming",
+      "odoamne_2016_h2k-gaming",
+      "ryu_2016_h2k-gaming",
+      "vander_2016_h2k-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "splyce_2016",
+    "team": "Splyce",
+    "teamSlug": "splyce",
+    "year": 2016,
+    "league": "LEC",
+    "roster": [
+      "kobbe_2016_splyce",
+      "mikyx_2016_splyce",
+      "sencux_2016_splyce",
+      "trashy_2016_splyce",
+      "wunder_2016_splyce"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "misfits-gaming_2017",
+    "team": "Misfits Gaming",
+    "teamSlug": "misfits-gaming",
+    "year": 2017,
+    "league": "LEC",
+    "roster": [
+      "alphari_2017_misfits-gaming",
+      "hans-sama_2017_misfits-gaming",
+      "ignar_2017_misfits-gaming",
+      "kakao_2017_misfits-gaming",
+      "powerofevil_2017_misfits-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fnatic_2017",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2017,
+    "league": "LEC",
+    "roster": [
+      "broxah_2017_fnatic",
+      "caps_2017_fnatic",
+      "jesiz_2017_fnatic",
+      "rekkles_2017_fnatic",
+      "soaz_2017_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2017",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2017,
+    "league": "LEC",
+    "roster": [
+      "expect_2017_g2-esports",
+      "mithy_2017_g2-esports",
+      "perkz_2017_g2-esports",
+      "trick_2017_g2-esports",
+      "zven_2017_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "misfits-gaming_2018",
+    "team": "Misfits Gaming",
+    "teamSlug": "misfits-gaming",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "alphari_2018_misfits-gaming",
+      "hans-sama_2018_misfits-gaming",
+      "maxlore_2018_misfits-gaming",
+      "mikyx_2018_misfits-gaming",
+      "sencux_2018_misfits-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-roccat_2018",
+    "team": "Team ROCCAT",
+    "teamSlug": "team-roccat",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "blanc-jin-seong-min_2018_team-roccat",
+      "heaq_2018_team-roccat",
+      "memento_2018_team-roccat",
+      "norskeren_2018_team-roccat",
+      "profit_2018_team-roccat"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fc-schalke-04-esports_2018",
+    "team": "FC Schalke 04 Esports",
+    "teamSlug": "fc-schalke-04-esports",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "amazing-maurice-st-ckenschneider_2018_fc-schalke-04-esports",
+      "nukeduck_2018_fc-schalke-04-esports",
+      "upset_2018_fc-schalke-04-esports",
+      "vander_2018_fc-schalke-04-esports",
+      "vizicsacsi_2018_fc-schalke-04-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2018",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "broxah_2018_fnatic",
+      "caps_2018_fnatic",
+      "hylissang_2018_fnatic",
+      "rekkles_2018_fnatic",
+      "soaz_2018_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-vitality_2018",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "cabochard_2018_team-vitality",
+      "gilius_2018_team-vitality",
+      "jactroll_2018_team-vitality",
+      "jiizuke_2018_team-vitality",
+      "minitroupax_2018_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "h2k-gaming_2018",
+    "team": "H2k-Gaming",
+    "teamSlug": "h2k-gaming",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "promisq_2018_h2k-gaming",
+      "selfie_2018_h2k-gaming",
+      "sheriff_2018_h2k-gaming",
+      "shook_2018_h2k-gaming",
+      "smittyj_2018_h2k-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "g2-esports_2018",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "hjarnan_2018_g2-esports",
+      "jankos_2018_g2-esports",
+      "perkz_2018_g2-esports",
+      "wadid_2018_g2-esports",
+      "wunder_2018_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "splyce_2018",
+    "team": "Splyce",
+    "teamSlug": "splyce",
+    "year": 2018,
+    "league": "LEC",
+    "roster": [
+      "kasing_2018_splyce",
+      "kobbe_2018_splyce",
+      "nisqy_2018_splyce",
+      "odoamne_2018_splyce",
+      "xerxe_2018_splyce"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fc-schalke-04-esports_2019",
+    "team": "FC Schalke 04 Esports",
+    "teamSlug": "fc-schalke-04-esports",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "abbedagge_2019_fc-schalke-04-esports",
+      "ignar_2019_fc-schalke-04-esports",
+      "odoamne_2019_fc-schalke-04-esports",
+      "trick_2019_fc-schalke-04-esports",
+      "upset_2019_fc-schalke-04-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "origen_2019",
+    "team": "Origen",
+    "teamSlug": "origen",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "alphari_2019_origen",
+      "kold_2019_origen",
+      "mithy_2019_origen",
+      "nukeduck_2019_origen",
+      "patrik_2019_origen"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vitality_2019",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "attila_2019_team-vitality",
+      "cabochard_2019_team-vitality",
+      "jactroll_2019_team-vitality",
+      "jiizuke_2019_team-vitality",
+      "mowgli_2019_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2019",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "broxah_2019_fnatic",
+      "bwipo_2019_fnatic",
+      "hylissang_2019_fnatic",
+      "nemesis_2019_fnatic",
+      "rekkles_2019_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2019",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "caps_2019_g2-esports",
+      "jankos_2019_g2-esports",
+      "mikyx_2019_g2-esports",
+      "perkz_2019_g2-esports",
+      "wunder_2019_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-gaming_2019",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "crownshot_2019_sk-gaming",
+      "dreams-han-min-kook_2019_sk-gaming",
+      "pirean_2019_sk-gaming",
+      "selfmade_2019_sk-gaming",
+      "werlyb_2019_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rogue-european-team_2019",
+    "team": "Rogue (European Team)",
+    "teamSlug": "rogue-european-team",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "inspired_2019_rogue-european-team",
+      "larssen_2019_rogue-european-team",
+      "profit_2019_rogue-european-team",
+      "vander_2019_rogue-european-team",
+      "woolite_2019_rogue-european-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "splyce_2019",
+    "team": "Splyce",
+    "teamSlug": "splyce",
+    "year": 2019,
+    "league": "LEC",
+    "roster": [
+      "humanoid_2019_splyce",
+      "kobbe_2019_splyce",
+      "norskeren_2019_splyce",
+      "vizicsacsi_2019_splyce",
+      "xerxe_2019_splyce"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fc-schalke-04-esports_2020",
+    "team": "FC Schalke 04 Esports",
+    "teamSlug": "fc-schalke-04-esports",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "abbedagge_2020_fc-schalke-04-esports",
+      "dreams-han-min-kook_2020_fc-schalke-04-esports",
+      "gilius_2020_fc-schalke-04-esports",
+      "neon-mat-jakub-k_2020_fc-schalke-04-esports",
+      "odoamne_2020_fc-schalke-04-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "origen_2020",
+    "team": "Origen",
+    "teamSlug": "origen",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "alphari_2020_origen",
+      "destiny-mitchell-shaw_2020_origen",
+      "nukeduck_2020_origen",
+      "upset_2020_origen",
+      "xerxe_2020_origen"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "misfits-gaming_2020",
+    "team": "Misfits Gaming",
+    "teamSlug": "misfits-gaming",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "bvoy_2020_misfits-gaming",
+      "dan-dan_2020_misfits-gaming",
+      "denyk_2020_misfits-gaming",
+      "febiven_2020_misfits-gaming",
+      "razork_2020_misfits-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2020",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "bwipo_2020_fnatic",
+      "hylissang_2020_fnatic",
+      "nemesis_2020_fnatic",
+      "rekkles_2020_fnatic",
+      "selfmade_2020_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2020",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "caps_2020_g2-esports",
+      "jankos_2020_g2-esports",
+      "mikyx_2020_g2-esports",
+      "perkz_2020_g2-esports",
+      "wunder_2020_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "mad-lions_2020",
+    "team": "MAD Lions",
+    "teamSlug": "mad-lions",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "carzzy_2020_mad-lions",
+      "humanoid_2020_mad-lions",
+      "kaiser_2020_mad-lions",
+      "orome_2020_mad-lions",
+      "shad0w_2020_mad-lions"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-gaming_2020",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "crownshot_2020_sk-gaming",
+      "jenax_2020_sk-gaming",
+      "limit-dino-tot_2020_sk-gaming",
+      "trick_2020_sk-gaming",
+      "zazee_2020_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rogue-european-team_2020",
+    "team": "Rogue (European Team)",
+    "teamSlug": "rogue-european-team",
+    "year": 2020,
+    "league": "LEC",
+    "roster": [
+      "finn_2020_rogue-european-team",
+      "hans-sama_2020_rogue-european-team",
+      "inspired_2020_rogue-european-team",
+      "larssen_2020_rogue-european-team",
+      "vander_2020_rogue-european-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fc-schalke-04-esports_2021",
+    "team": "FC Schalke 04 Esports",
+    "teamSlug": "fc-schalke-04-esports",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "abbedagge_2021_fc-schalke-04-esports",
+      "brokenblade_2021_fc-schalke-04-esports",
+      "gilius_2021_fc-schalke-04-esports",
+      "limit-dino-tot_2021_fc-schalke-04-esports",
+      "neon-mat-jakub-k_2021_fc-schalke-04-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "mad-lions_2021",
+    "team": "MAD Lions",
+    "teamSlug": "mad-lions",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "armut_2021_mad-lions",
+      "carzzy_2021_mad-lions",
+      "elyoya_2021_mad-lions",
+      "humanoid_2021_mad-lions",
+      "kaiser_2021_mad-lions"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-gaming_2021",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "blue-ersin-g-ren_2021_sk-gaming",
+      "jenax_2021_sk-gaming",
+      "jezu_2021_sk-gaming",
+      "treatz_2021_sk-gaming",
+      "tynx_2021_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2021",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "adam-adam-maanane_2021_fnatic",
+      "bwipo_2021_fnatic",
+      "hylissang_2021_fnatic",
+      "nisqy_2021_fnatic",
+      "upset_2021_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2021",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "caps_2021_g2-esports",
+      "jankos_2021_g2-esports",
+      "mikyx_2021_g2-esports",
+      "rekkles_2021_g2-esports",
+      "wunder_2021_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vitality_2021",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "crownshot_2021_team-vitality",
+      "labrov_2021_team-vitality",
+      "lider_2021_team-vitality",
+      "selfmade_2021_team-vitality",
+      "szygenda_2021_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "rogue-european-team_2021",
+    "team": "Rogue (European Team)",
+    "teamSlug": "rogue-european-team",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "hans-sama_2021_rogue-european-team",
+      "inspired_2021_rogue-european-team",
+      "larssen_2021_rogue-european-team",
+      "odoamne_2021_rogue-european-team",
+      "trymbi_2021_rogue-european-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "misfits-gaming_2021",
+    "team": "Misfits Gaming",
+    "teamSlug": "misfits-gaming",
+    "year": 2021,
+    "league": "LEC",
+    "roster": [
+      "hirit_2021_misfits-gaming",
+      "kobbe_2021_misfits-gaming",
+      "razork_2021_misfits-gaming",
+      "vander_2021_misfits-gaming",
+      "vetheo_2021_misfits-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "excel-esports_2022",
+    "team": "Excel Esports",
+    "teamSlug": "excel-esports",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "finn_2022_excel-esports",
+      "markoon_2022_excel-esports",
+      "mikyx_2022_excel-esports",
+      "nukeduck_2022_excel-esports",
+      "patrik_2022_excel-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vitality_2022",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "alphari_2022_team-vitality",
+      "carzzy_2022_team-vitality",
+      "labrov_2022_team-vitality",
+      "perkz_2022_team-vitality",
+      "selfmade_2022_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "mad-lions_2022",
+    "team": "MAD Lions",
+    "teamSlug": "mad-lions",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "armut_2022_mad-lions",
+      "elyoya_2022_mad-lions",
+      "kaiser_2022_mad-lions",
+      "nisqy_2022_mad-lions",
+      "unf0rgiven_2022_mad-lions"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2022",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "brokenblade_2022_g2-esports",
+      "caps_2022_g2-esports",
+      "flakked_2022_g2-esports",
+      "jankos_2022_g2-esports",
+      "targamas_2022_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "rogue-european-team_2022",
+    "team": "Rogue (European Team)",
+    "teamSlug": "rogue-european-team",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "comp_2022_rogue-european-team",
+      "larssen_2022_rogue-european-team",
+      "malrang_2022_rogue-european-team",
+      "odoamne_2022_rogue-european-team",
+      "trymbi_2022_rogue-european-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "misfits-gaming_2022",
+    "team": "Misfits Gaming",
+    "teamSlug": "misfits-gaming",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "irrelevant_2022_misfits-gaming",
+      "mersa_2022_misfits-gaming",
+      "neon-mat-jakub-k_2022_misfits-gaming",
+      "shlatan_2022_misfits-gaming",
+      "vetheo_2022_misfits-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2022",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2022,
+    "league": "LEC",
+    "roster": [
+      "humanoid_2022_fnatic",
+      "hylissang_2022_fnatic",
+      "razork_2022_fnatic",
+      "upset_2022_fnatic",
+      "wunder_2022_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "excel-esports_2023",
+    "team": "Excel Esports",
+    "teamSlug": "excel-esports",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "abbedagge_2023_excel-esports",
+      "limit-dino-tot_2023_excel-esports",
+      "odoamne_2023_excel-esports",
+      "patrik_2023_excel-esports",
+      "peach_2023_excel-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-bds_2023",
+    "team": "Team BDS",
+    "teamSlug": "team-bds",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "adam-adam-maanane_2023_team-bds",
+      "crownie_2023_team-bds",
+      "labrov_2023_team-bds",
+      "nuc_2023_team-bds",
+      "sheo_2023_team-bds"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2023",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "brokenblade_2023_g2-esports",
+      "caps_2023_g2-esports",
+      "hans-sama_2023_g2-esports",
+      "mikyx_2023_g2-esports",
+      "yike_2023_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "mad-lions_2023",
+    "team": "MAD Lions",
+    "teamSlug": "mad-lions",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "carzzy_2023_mad-lions",
+      "chasy_2023_mad-lions",
+      "elyoya_2023_mad-lions",
+      "hylissang_2023_mad-lions",
+      "nisqy_2023_mad-lions"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "sk-gaming_2023",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "doss_2023_sk-gaming",
+      "exakick_2023_sk-gaming",
+      "irrelevant_2023_sk-gaming",
+      "markoon_2023_sk-gaming",
+      "sertuss_2023_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2023",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "humanoid_2023_fnatic",
+      "noah-oh-hyeon-taek_2023_fnatic",
+      "oscarinin_2023_fnatic",
+      "razork_2023_fnatic",
+      "trymbi_2023_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-vitality_2023",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "bo_2023_team-vitality",
+      "kaiser_2023_team-vitality",
+      "perkz_2023_team-vitality",
+      "photon_2023_team-vitality",
+      "upset_2023_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "koi-spanish-team_2023",
+    "team": "KOI (Spanish Team)",
+    "teamSlug": "koi-spanish-team",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "comp_2023_koi-spanish-team",
+      "larssen_2023_koi-spanish-team",
+      "malrang_2023_koi-spanish-team",
+      "szygenda_2023_koi-spanish-team",
+      "trymbi_2023_koi-spanish-team"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-heretics_2023",
+    "team": "Team Heretics",
+    "teamSlug": "team-heretics",
+    "year": 2023,
+    "league": "LEC",
+    "roster": [
+      "evi_2023_team-heretics",
+      "jackspektra_2023_team-heretics",
+      "jankos_2023_team-heretics",
+      "mersa_2023_team-heretics",
+      "ruby-lee-sol-min_2023_team-heretics"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-bds_2024",
+    "team": "Team BDS",
+    "teamSlug": "team-bds",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "adam-adam-maanane_2024_team-bds",
+      "ice-yoon-sang-hoon_2024_team-bds",
+      "labrov_2024_team-bds",
+      "nuc_2024_team-bds",
+      "sheo_2024_team-bds"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "mad-lions-koi_2024",
+    "team": "MAD Lions KOI",
+    "teamSlug": "mad-lions-koi",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "alvaro-lvaro-fern-ndez_2024_mad-lions-koi",
+      "elyoya_2024_mad-lions-koi",
+      "fresskowy_2024_mad-lions-koi",
+      "myrwn_2024_mad-lions-koi",
+      "supa_2024_mad-lions-koi"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2024",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "brokenblade_2024_g2-esports",
+      "caps_2024_g2-esports",
+      "hans-sama_2024_g2-esports",
+      "mikyx_2024_g2-esports",
+      "yike_2024_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "fnatic_2024",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "humanoid_2024_fnatic",
+      "jun-yoon-se-jun_2024_fnatic",
+      "noah-oh-hyeon-taek_2024_fnatic",
+      "oscarinin_2024_fnatic",
+      "razork_2024_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "giantx_2024",
+    "team": "GIANTX",
+    "teamSlug": "giantx",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "ignar_2024_giantx",
+      "jackies_2024_giantx",
+      "odoamne_2024_giantx",
+      "patrik_2024_giantx",
+      "peach_2024_giantx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "sk-gaming_2024",
+    "team": "SK Gaming",
+    "teamSlug": "sk-gaming",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "doss_2024_sk-gaming",
+      "exakick_2024_sk-gaming",
+      "irrelevant_2024_sk-gaming",
+      "isma_2024_sk-gaming",
+      "nisqy_2024_sk-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "karmine-corp_2024",
+    "team": "Karmine Corp",
+    "teamSlug": "karmine-corp",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "canna_2024_karmine-corp",
+      "closer-can-elik_2024_karmine-corp",
+      "targamas_2024_karmine-corp",
+      "upset_2024_karmine-corp",
+      "vladi_2024_karmine-corp"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vitality_2024",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "carzzy_2024_team-vitality",
+      "daglas_2024_team-vitality",
+      "hylissang_2024_team-vitality",
+      "photon_2024_team-vitality",
+      "vetheo_2024_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-heretics_2024",
+    "team": "Team Heretics",
+    "teamSlug": "team-heretics",
+    "year": 2024,
+    "league": "LEC",
+    "roster": [
+      "flakked_2024_team-heretics",
+      "jankos_2024_team-heretics",
+      "trymbi_2024_team-heretics",
+      "wunder_2024_team-heretics",
+      "zwyroo_2024_team-heretics"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-bds_2025",
+    "team": "Team BDS",
+    "teamSlug": "team-bds",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "113_2025_team-bds",
+      "ice-yoon-sang-hoon_2025_team-bds",
+      "irrelevant_2025_team-bds",
+      "nuc_2025_team-bds",
+      "parus_2025_team-bds"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "movistar-koi_2025",
+    "team": "Movistar KOI",
+    "teamSlug": "movistar-koi",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "alvaro-lvaro-fern-ndez_2025_movistar-koi",
+      "elyoya_2025_movistar-koi",
+      "jojopyun_2025_movistar-koi",
+      "myrwn_2025_movistar-koi",
+      "supa_2025_movistar-koi"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "g2-esports_2025",
+    "team": "G2 Esports",
+    "teamSlug": "g2-esports",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "brokenblade_2025_g2-esports",
+      "caps_2025_g2-esports",
+      "hans-sama_2025_g2-esports",
+      "labrov_2025_g2-esports",
+      "skewmond_2025_g2-esports"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "karmine-corp_2025",
+    "team": "Karmine Corp",
+    "teamSlug": "karmine-corp",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "caliste_2025_karmine-corp",
+      "canna_2025_karmine-corp",
+      "targamas_2025_karmine-corp",
+      "vladi_2025_karmine-corp",
+      "yike_2025_karmine-corp"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-heretics_2025",
+    "team": "Team Heretics",
+    "teamSlug": "team-heretics",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "carlsen_2025_team-heretics",
+      "flakked_2025_team-heretics",
+      "kamiloo_2025_team-heretics",
+      "sheo_2025_team-heretics",
+      "stend_2025_team-heretics"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vitality_2025",
+    "team": "Team Vitality",
+    "teamSlug": "team-vitality",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "carzzy_2025_team-vitality",
+      "czajek_2025_team-vitality",
+      "lyncas_2025_team-vitality",
+      "naak-nako_2025_team-vitality",
+      "nisqy_2025_team-vitality"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "fnatic_2025",
+    "team": "Fnatic",
+    "teamSlug": "fnatic",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "humanoid_2025_fnatic",
+      "mikyx_2025_fnatic",
+      "oscarinin_2025_fnatic",
+      "razork_2025_fnatic",
+      "upset_2025_fnatic"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "giantx_2025",
+    "team": "GIANTX",
+    "teamSlug": "giantx",
+    "year": 2025,
+    "league": "LEC",
+    "roster": [
+      "isma_2025_giantx",
+      "jackies_2025_giantx",
+      "jun-yoon-se-jun_2025_giantx",
+      "lot_2025_giantx",
+      "noah-oh-hyeon-taek_2025_giantx"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-vulcun_2013",
+    "team": "Team Vulcun",
+    "teamSlug": "team-vulcun",
+    "year": 2013,
+    "league": "LCS",
+    "roster": [
+      "bloodwater_2013_team-vulcun",
+      "mancloud_2013_team-vulcun",
+      "sycho-sid_2013_team-vulcun",
+      "xmithie_2013_team-vulcun",
+      "zuna_2013_team-vulcun"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2013",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2013,
+    "league": "LCS",
+    "roster": [
+      "dyrus_2013_tsm",
+      "reginald_2013_tsm",
+      "theoddone_2013_tsm",
+      "wildturtle_2013_tsm",
+      "xpecial_2013_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2013",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2013,
+    "league": "LCS",
+    "roster": [
+      "balls_2013_cloud9",
+      "hai_2013_cloud9",
+      "lemonnation_2013_cloud9",
+      "meteos_2013_cloud9",
+      "sneaky_2013_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2014",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2014,
+    "league": "LCS",
+    "roster": [
+      "balls_2014_cloud9",
+      "hai_2014_cloud9",
+      "lemonnation_2014_cloud9",
+      "meteos_2014_cloud9",
+      "sneaky_2014_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2014",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2014,
+    "league": "LCS",
+    "roster": [
+      "amazing-maurice-st-ckenschneider_2014_tsm",
+      "bjergsen_2014_tsm",
+      "dyrus_2014_tsm",
+      "wildturtle_2014_tsm",
+      "xpecial_2014_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "lmq_2014",
+    "team": "LMQ",
+    "teamSlug": "lmq",
+    "year": 2014,
+    "league": "LCS",
+    "roster": [
+      "ackerman-xiao-wang_2014_lmq",
+      "mor_2014_lmq",
+      "noname-zhou-qi-lin_2014_lmq",
+      "vasilii_2014_lmq",
+      "xiaoweixiao_2014_lmq"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "counter-logic-gaming_2015",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2015,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2015_counter-logic-gaming",
+      "doublelift_2015_counter-logic-gaming",
+      "link_2015_counter-logic-gaming",
+      "xmithie_2015_counter-logic-gaming",
+      "zionspartan_2015_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2015",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2015,
+    "league": "LCS",
+    "roster": [
+      "balls_2015_cloud9",
+      "hai_2015_cloud9",
+      "lemonnation_2015_cloud9",
+      "meteos_2015_cloud9",
+      "sneaky_2015_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2015",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2015,
+    "league": "LCS",
+    "roster": [
+      "bjergsen_2015_tsm",
+      "dyrus_2015_tsm",
+      "lustboy_2015_tsm",
+      "santorin_2015_tsm",
+      "wildturtle_2015_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "counter-logic-gaming_2016",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2016,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2016_counter-logic-gaming",
+      "darshan_2016_counter-logic-gaming",
+      "huhi_2016_counter-logic-gaming",
+      "stixxay_2016_counter-logic-gaming",
+      "xmithie_2016_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2016",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2016,
+    "league": "LCS",
+    "roster": [
+      "impact_2016_cloud9",
+      "jensen_2016_cloud9",
+      "meteos_2016_cloud9",
+      "smoothie_2016_cloud9",
+      "sneaky_2016_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2016",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2016,
+    "league": "LCS",
+    "roster": [
+      "biofrost_2016_tsm",
+      "bjergsen_2016_tsm",
+      "doublelift_2016_tsm",
+      "hauntzer_2016_tsm",
+      "svenskeren_2016_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2017",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2017,
+    "league": "LCS",
+    "roster": [
+      "biofrost_2017_tsm",
+      "bjergsen_2017_tsm",
+      "hauntzer_2017_tsm",
+      "svenskeren_2017_tsm",
+      "wildturtle_2017_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "immortals_2017",
+    "team": "Immortals",
+    "teamSlug": "immortals",
+    "year": 2017,
+    "league": "LCS",
+    "roster": [
+      "cody-sun_2017_immortals",
+      "flame_2017_immortals",
+      "olleh_2017_immortals",
+      "pobelter_2017_immortals",
+      "xmithie_2017_immortals"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2017",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2017,
+    "league": "LCS",
+    "roster": [
+      "contractz_2017_cloud9",
+      "impact_2017_cloud9",
+      "jensen_2017_cloud9",
+      "smoothie_2017_cloud9",
+      "sneaky_2017_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "echo-fox_2018",
+    "team": "Echo Fox",
+    "teamSlug": "echo-fox",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "adrian-adrian-ma_2018_echo-fox",
+      "altec_2018_echo-fox",
+      "dardoch_2018_echo-fox",
+      "fenix_2018_echo-fox",
+      "huni_2018_echo-fox"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2018",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "flame_2018_flyquest",
+      "jayj_2018_flyquest",
+      "keane_2018_flyquest",
+      "santorin_2018_flyquest",
+      "wildturtle_2018_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2018",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2018_100-thieves",
+      "cody-sun_2018_100-thieves",
+      "meteos_2018_100-thieves",
+      "ryu_2018_100-thieves",
+      "ssumday_2018_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "clutch-gaming_2018",
+    "team": "Clutch Gaming",
+    "teamSlug": "clutch-gaming",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "apollo-apollo-price_2018_clutch-gaming",
+      "febiven_2018_clutch-gaming",
+      "hakuho_2018_clutch-gaming",
+      "lira_2018_clutch-gaming",
+      "solo-colin-earnest_2018_clutch-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "tsm_2018",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "bjergsen_2018_tsm",
+      "grig_2018_tsm",
+      "hauntzer_2018_tsm",
+      "mithy_2018_tsm",
+      "zven_2018_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2018",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "doublelift_2018_team-liquid",
+      "impact_2018_team-liquid",
+      "olleh_2018_team-liquid",
+      "pobelter_2018_team-liquid",
+      "xmithie_2018_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2018",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2018,
+    "league": "LCS",
+    "roster": [
+      "jensen_2018_cloud9",
+      "licorice_2018_cloud9",
+      "sneaky_2018_cloud9",
+      "svenskeren_2018_cloud9",
+      "zeyzal_2018_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2019",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "akaadian_2019_tsm",
+      "bjergsen_2019_tsm",
+      "broken-blade_2019_tsm",
+      "smoothie_2019_tsm",
+      "zven_2019_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "optic-gaming_2019",
+    "team": "OpTic Gaming",
+    "teamSlug": "optic-gaming",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "arrow_2019_optic-gaming",
+      "big_2019_optic-gaming",
+      "crown_2019_optic-gaming",
+      "dhokla_2019_optic-gaming",
+      "meteos_2019_optic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "echo-fox_2019",
+    "team": "Echo Fox",
+    "teamSlug": "echo-fox",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "apollo-apollo-price_2019_echo-fox",
+      "fenix_2019_echo-fox",
+      "hakuho_2019_echo-fox",
+      "rush_2019_echo-fox",
+      "solo-colin-earnest_2019_echo-fox"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "counter-logic-gaming_2019",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "biofrost_2019_counter-logic-gaming",
+      "powerofevil_2019_counter-logic-gaming",
+      "ruin_2019_counter-logic-gaming",
+      "stixxay_2019_counter-logic-gaming",
+      "wiggily_2019_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "cloud9_2019",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "licorice_2019_cloud9",
+      "nisqy_2019_cloud9",
+      "sneaky_2019_cloud9",
+      "svenskeren_2019_cloud9",
+      "zeyzal_2019_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "clutch-gaming_2019",
+    "team": "Clutch Gaming",
+    "teamSlug": "clutch-gaming",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "cody-sun_2019_clutch-gaming",
+      "damonte_2019_clutch-gaming",
+      "huni_2019_clutch-gaming",
+      "lira_2019_clutch-gaming",
+      "vulcan-philippe-laflamme_2019_clutch-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "golden-guardians_2019",
+    "team": "Golden Guardians",
+    "teamSlug": "golden-guardians",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "contractz_2019_golden-guardians",
+      "deftly_2019_golden-guardians",
+      "froggen_2019_golden-guardians",
+      "hauntzer_2019_golden-guardians",
+      "olleh_2019_golden-guardians"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2019",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "corejj_2019_team-liquid",
+      "doublelift_2019_team-liquid",
+      "impact_2019_team-liquid",
+      "jensen_2019_team-liquid",
+      "xmithie_2019_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "flyquest_2019",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2019,
+    "league": "LCS",
+    "roster": [
+      "jayj_2019_flyquest",
+      "pobelter_2019_flyquest",
+      "santorin_2019_flyquest",
+      "v1per_2019_flyquest",
+      "wildturtle_2019_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "dignitas_2020",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2020_dignitas",
+      "dardoch_2020_dignitas",
+      "froggen_2020_dignitas",
+      "huni_2020_dignitas",
+      "johnsun_2020_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "evil-geniuses-na_2020",
+    "team": "Evil Geniuses.NA",
+    "teamSlug": "evil-geniuses-na",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "bang_2020_evil-geniuses-na",
+      "jiizuke_2020_evil-geniuses-na",
+      "kumo_2020_evil-geniuses-na",
+      "svenskeren_2020_evil-geniuses-na",
+      "zeyzal_2020_evil-geniuses-na"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "tsm_2020",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "biofrost_2020_tsm",
+      "bjergsen_2020_tsm",
+      "broken-blade_2020_tsm",
+      "doublelift_2020_tsm",
+      "spica_2020_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2020",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "blaber_2020_cloud9",
+      "licorice_2020_cloud9",
+      "nisqy_2020_cloud9",
+      "vulcan-philippe-laflamme_2020_cloud9",
+      "zven_2020_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-liquid_2020",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "broxah_2020_team-liquid",
+      "corejj_2020_team-liquid",
+      "impact_2020_team-liquid",
+      "jensen_2020_team-liquid",
+      "tactical_2020_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "golden-guardians_2020",
+    "team": "Golden Guardians",
+    "teamSlug": "golden-guardians",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "closer-can-elik_2020_golden-guardians",
+      "damonte_2020_golden-guardians",
+      "fbi_2020_golden-guardians",
+      "hauntzer_2020_golden-guardians",
+      "huhi_2020_golden-guardians"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2020",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "cody-sun_2020_100-thieves",
+      "meteos_2020_100-thieves",
+      "ryoma_2020_100-thieves",
+      "ssumday_2020_100-thieves",
+      "stunt_2020_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2020",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2020,
+    "league": "LCS",
+    "roster": [
+      "ignar_2020_flyquest",
+      "powerofevil_2020_flyquest",
+      "santorin_2020_flyquest",
+      "solo-colin-earnest_2020_flyquest",
+      "wildturtle_2020_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "100-thieves_2021",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "abbedagge_2021_100-thieves",
+      "closer-can-elik_2021_100-thieves",
+      "fbi_2021_100-thieves",
+      "huhi_2021_100-thieves",
+      "ssumday_2021_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "golden-guardians_2021",
+    "team": "Golden Guardians",
+    "teamSlug": "golden-guardians",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "ablazeolive_2021_golden-guardians",
+      "chime_2021_golden-guardians",
+      "iconic_2021_golden-guardians",
+      "niles-aiden-tidwell_2021_golden-guardians",
+      "stixxay_2021_golden-guardians"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "dignitas_2021",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2021_dignitas",
+      "dardoch_2021_dignitas",
+      "fakegod_2021_dignitas",
+      "neo-to-n-tr-n_2021_dignitas",
+      "yusui_2021_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2021",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "alphari_2021_team-liquid",
+      "corejj_2021_team-liquid",
+      "jensen_2021_team-liquid",
+      "santorin_2021_team-liquid",
+      "tactical_2021_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2021",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "blaber_2021_cloud9",
+      "fudge_2021_cloud9",
+      "perkz_2021_cloud9",
+      "vulcan-philippe-laflamme_2021_cloud9",
+      "zven_2021_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "evil-geniuses-na_2021",
+    "team": "Evil Geniuses.NA",
+    "teamSlug": "evil-geniuses-na",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "danny-kyle-sakamaki_2021_evil-geniuses-na",
+      "ignar_2021_evil-geniuses-na",
+      "impact_2021_evil-geniuses-na",
+      "jiizuke_2021_evil-geniuses-na",
+      "svenskeren_2021_evil-geniuses-na"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "immortals_2021",
+    "team": "Immortals",
+    "teamSlug": "immortals",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "destiny-mitchell-shaw_2021_immortals",
+      "insanity_2021_immortals",
+      "raes_2021_immortals",
+      "revenge-mohamed-kaddoura_2021_immortals",
+      "xerxe_2021_immortals"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "tsm_2021",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "huni_2021_tsm",
+      "lost-lawrence-hui_2021_tsm",
+      "powerofevil_2021_tsm",
+      "spica_2021_tsm",
+      "swordart_2021_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2021",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "diamond-david-b-rub_2021_flyquest",
+      "johnsun_2021_flyquest",
+      "josedeodo_2021_flyquest",
+      "licorice_2021_flyquest",
+      "palafox_2021_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "counter-logic-gaming_2021",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2021,
+    "league": "LCS",
+    "roster": [
+      "broxah_2021_counter-logic-gaming",
+      "finn_2021_counter-logic-gaming",
+      "pobelter_2021_counter-logic-gaming",
+      "smoothie_2021_counter-logic-gaming",
+      "wildturtle_2021_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2022",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "abbedagge_2022_100-thieves",
+      "closer-can-elik_2022_100-thieves",
+      "fbi_2022_100-thieves",
+      "huhi_2022_100-thieves",
+      "ssumday_2022_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "golden-guardians_2022",
+    "team": "Golden Guardians",
+    "teamSlug": "golden-guardians",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "ablazeolive_2022_golden-guardians",
+      "licorice_2022_golden-guardians",
+      "olleh_2022_golden-guardians",
+      "pridestalkr_2022_golden-guardians",
+      "stixxay_2022_golden-guardians"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2022",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "aphromoo_2022_flyquest",
+      "johnsun_2022_flyquest",
+      "josedeodo_2022_flyquest",
+      "kumo_2022_flyquest",
+      "toucouille_2022_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "cloud9_2022",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "berserker-kim-min-cheol_2022_cloud9",
+      "blaber_2022_cloud9",
+      "fudge_2022_cloud9",
+      "summit_2022_cloud9",
+      "zven_2022_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "team-liquid_2022",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "bjergsen_2022_team-liquid",
+      "bwipo_2022_team-liquid",
+      "corejj_2022_team-liquid",
+      "hans-sama_2022_team-liquid",
+      "santorin_2022_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2022",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "chime_2022_tsm",
+      "huni_2022_tsm",
+      "maple-huang-yi-tang_2022_tsm",
+      "spica_2022_tsm",
+      "tactical_2022_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "counter-logic-gaming_2022",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "contractz_2022_counter-logic-gaming",
+      "dhokla_2022_counter-logic-gaming",
+      "luger_2022_counter-logic-gaming",
+      "palafox_2022_counter-logic-gaming",
+      "poome_2022_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "evil-geniuses-na_2022",
+    "team": "Evil Geniuses.NA",
+    "teamSlug": "evil-geniuses-na",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "danny-kyle-sakamaki_2022_evil-geniuses-na",
+      "impact_2022_evil-geniuses-na",
+      "inspired_2022_evil-geniuses-na",
+      "jojopyun_2022_evil-geniuses-na",
+      "vulcan-philippe-laflamme_2022_evil-geniuses-na"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "dignitas_2022",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "biofrost_2022_dignitas",
+      "blue-ersin-g-ren_2022_dignitas",
+      "fakegod_2022_dignitas",
+      "neo-to-n-tr-n_2022_dignitas",
+      "river-kim-dong-woo_2022_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "immortals_2022",
+    "team": "Immortals",
+    "teamSlug": "immortals",
+    "year": 2022,
+    "league": "LCS",
+    "roster": [
+      "destiny-mitchell-shaw_2022_immortals",
+      "lost-lawrence-hui_2022_immortals",
+      "powerofevil_2022_immortals",
+      "revenge-mohamed-kaddoura_2022_immortals",
+      "xerxe_2022_immortals"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2023",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "apa-eain-stearns_2023_team-liquid",
+      "corejj_2023_team-liquid",
+      "pyosik_2023_team-liquid",
+      "summit_2023_team-liquid",
+      "yeon-sean-sung_2023_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "evil-geniuses-na_2023",
+    "team": "Evil Geniuses.NA",
+    "teamSlug": "evil-geniuses-na",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "eyla_2023_evil-geniuses-na",
+      "inspired_2023_evil-geniuses-na",
+      "jojopyun_2023_evil-geniuses-na",
+      "revenge-mohamed-kaddoura_2023_evil-geniuses-na",
+      "unf0rgiven_2023_evil-geniuses-na"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "cloud9_2023",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "berserker-kim-min-cheol_2023_cloud9",
+      "blaber_2023_cloud9",
+      "emenes_2023_cloud9",
+      "fudge_2023_cloud9",
+      "zven_2023_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "tsm_2023",
+    "team": "TSM",
+    "teamSlug": "tsm",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "bugi_2023_tsm",
+      "chime_2023_tsm",
+      "hauntzer_2023_tsm",
+      "insanity_2023_tsm",
+      "wildturtle_2023_tsm"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2023",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "bjergsen_2023_100-thieves",
+      "busio_2023_100-thieves",
+      "closer-can-elik_2023_100-thieves",
+      "doublelift_2023_100-thieves",
+      "tenacity_2023_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "nrg_2023",
+    "team": "NRG",
+    "teamSlug": "nrg",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "contractz_2023_nrg",
+      "dhokla_2023_nrg",
+      "fbi_2023_nrg",
+      "ignar_2023_nrg",
+      "palafox_2023_nrg"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "golden-guardians_2023",
+    "team": "Golden Guardians",
+    "teamSlug": "golden-guardians",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "gori_2023_golden-guardians",
+      "huhi_2023_golden-guardians",
+      "licorice_2023_golden-guardians",
+      "river-kim-dong-woo_2023_golden-guardians",
+      "stixxay_2023_golden-guardians"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "dignitas_2023",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "jensen_2023_dignitas",
+      "poome_2023_dignitas",
+      "rich-lee-jae-won_2023_dignitas",
+      "santorin_2023_dignitas",
+      "tomo_2023_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "counter-logic-gaming_2023",
+    "team": "Counter Logic Gaming",
+    "teamSlug": "counter-logic-gaming",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "contractz_2023_counter-logic-gaming",
+      "dhokla_2023_counter-logic-gaming",
+      "luger_2023_counter-logic-gaming",
+      "palafox_2023_counter-logic-gaming",
+      "poome_2023_counter-logic-gaming"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2023",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2023,
+    "league": "LCS",
+    "roster": [
+      "impact_2023_flyquest",
+      "prince-lee-chae-hwan_2023_flyquest",
+      "spica_2023_flyquest",
+      "vicla_2023_flyquest",
+      "vulcan-philippe-laflamme_2023_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2024",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "apa-eain-stearns_2024_team-liquid",
+      "corejj_2024_team-liquid",
+      "impact_2024_team-liquid",
+      "umti_2024_team-liquid",
+      "yeon-sean-sung_2024_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "cloud9_2024",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "berserker-kim-min-cheol_2024_cloud9",
+      "blaber_2024_cloud9",
+      "jojopyun_2024_cloud9",
+      "thanatos-park-seung-kyu_2024_cloud9",
+      "vulcan-philippe-laflamme_2024_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2024",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "busio_2024_flyquest",
+      "bwipo_2024_flyquest",
+      "inspired_2024_flyquest",
+      "massu_2024_flyquest",
+      "quad_2024_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "nrg_2024",
+    "team": "NRG",
+    "teamSlug": "nrg",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "contractz_2024_nrg",
+      "dhokla_2024_nrg",
+      "fbi_2024_nrg",
+      "huhi_2024_nrg",
+      "palafox_2024_nrg"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2024",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "eyla_2024_100-thieves",
+      "meech_2024_100-thieves",
+      "quid_2024_100-thieves",
+      "river-kim-dong-woo_2024_100-thieves",
+      "sniper_2024_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "dignitas_2024",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2024,
+    "league": "LCS",
+    "roster": [
+      "isles_2024_dignitas",
+      "jensen_2024_dignitas",
+      "licorice_2024_dignitas",
+      "spica_2024_dignitas",
+      "zven_2024_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "team-liquid_2025",
+    "team": "Team Liquid",
+    "teamSlug": "team-liquid",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "apa-eain-stearns_2025_team-liquid",
+      "corejj_2025_team-liquid",
+      "impact_2025_team-liquid",
+      "yeon-sean-sung_2025_team-liquid",
+      "yuuji_2025_team-liquid"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "cloud9_2025",
+    "team": "Cloud9",
+    "teamSlug": "cloud9",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "blaber_2025_cloud9",
+      "loki-lee-sang-min_2025_cloud9",
+      "thanatos-park-seung-kyu_2025_cloud9",
+      "vulcan-philippe-laflamme_2025_cloud9",
+      "zven_2025_cloud9"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "flyquest_2025",
+    "team": "FlyQuest",
+    "teamSlug": "flyquest",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "busio_2025_flyquest",
+      "bwipo_2025_flyquest",
+      "inspired_2025_flyquest",
+      "massu_2025_flyquest",
+      "quad_2025_flyquest"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "shopify-rebellion_2025",
+    "team": "Shopify Rebellion",
+    "teamSlug": "shopify-rebellion",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "bvoy_2025_shopify-rebellion",
+      "ceos_2025_shopify-rebellion",
+      "contractz_2025_shopify-rebellion",
+      "fudge_2025_shopify-rebellion",
+      "palafox_2025_shopify-rebellion"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  },
+  {
+    "key": "100-thieves_2025",
+    "team": "100 Thieves",
+    "teamSlug": "100-thieves",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "eyla_2025_100-thieves",
+      "fbi_2025_100-thieves",
+      "quid_2025_100-thieves",
+      "river-kim-dong-woo_2025_100-thieves",
+      "sniper_2025_100-thieves"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 4
+  },
+  {
+    "key": "dignitas_2025",
+    "team": "Dignitas",
+    "teamSlug": "dignitas",
+    "year": 2025,
+    "league": "LCS",
+    "roster": [
+      "isles_2025_dignitas",
+      "keine_2025_dignitas",
+      "sheiden_2025_dignitas",
+      "srtty_2025_dignitas",
+      "tomo_2025_dignitas"
+    ],
+    "rolesAvailable": [
+      "ADC",
+      "JGL",
+      "MID",
+      "SUP",
+      "TOP"
+    ],
+    "weight": 2
+  }
+]

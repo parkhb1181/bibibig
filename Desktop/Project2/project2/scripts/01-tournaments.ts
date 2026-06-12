@@ -25,7 +25,10 @@ const YEAR_TO = 2025
 // §4.2 + discovery.md 확정값 기준 시대별 League 필드 값
 function getDomesticLeagueValues(code: LeagueCode, year: number): string[] {
   switch (code) {
-    case 'LCK': return ['LoL Champions Korea']
+    case 'LCK':
+      // 2013~2015: OGN Champions 시대 — League="LoL The Champions"
+      // 2016~:     LCK 리브랜딩    — League="LoL Champions Korea"
+      return year <= 2015 ? ['LoL The Champions'] : ['LoL Champions Korea']
     case 'LPL': return ['Tencent LoL Pro League']
     case 'LEC':
       return year <= 2018
@@ -82,22 +85,42 @@ async function main() {
         for (const r of rows) {
           if (!r.OverviewPage) continue
           const name = r.Name ?? ''
+
+          // LCK 2013~2015 (LoL The Champions): Leaguepedia IsQualifier·IsPlayoffs 값 보정
+          // - Qualifiers/Promotion/Preseason 항목: IsQualifier=0이지만 이름으로 판별 → qualifier 처리
+          // - 2013~2014 Season 항목: 별도 Playoffs 항목 없음, Season 토너먼트가 챔피언십(결승 포함)
+          //   → 레이팅 플옵 가점 적용을 위해 isPlayoffs=true 처리
+          // - 2015: 별도 "Playoffs" 항목 존재(IsPlayoffs=1) — Leaguepedia 값 그대로 사용
+          let isThisQualifier = r.IsQualifier === '1'
+          let isThisPlayoffs = r.IsPlayoffs === '1'
+          if (leagueValue === 'LoL The Champions') {
+            isThisQualifier = r.IsQualifier === '1' ||
+              name.includes('Qualifier') ||
+              name.includes('Promotion') ||
+              name.includes('Preseason')
+            if (!isThisQualifier && year <= 2014) {
+              isThisPlayoffs = true
+            }
+          }
+
           result.push({
             name,
             overviewPage: r.OverviewPage,
             year: adjustYearForCrossing(name, r.OverviewPage, year),
             leagueCode: code,
             leagueValue,
-            isPlayoffs: r.IsPlayoffs === '1',
-            isQualifier: r.IsQualifier === '1',
+            isPlayoffs: isThisPlayoffs,
+            isQualifier: isThisQualifier,
           })
         }
       }
     }
   }
 
-  // 2. Worlds (2013~2025) — League="World Championship", OverviewPage에 "/" 없는 것만 채택
-  //    (Regional Finals는 OverviewPage에 "/<league>/" 포함)
+  // 2. Worlds (2013~2025) — League="World Championship"
+  //    2013~2016: OverviewPage에 "/" 없음 (예: "2016 Season World Championship")
+  //    2017+: "/Main Event" 서픽스 (예: "2017 Season World Championship/Main Event")
+  //    "/Play-In" · "/<league>/Regional Finals" 등 나머지 슬래시 항목 제외
   for (let year = YEAR_FROM; year <= YEAR_TO; year++) {
     const rows = await cargoPaginate(
       {
@@ -108,7 +131,9 @@ async function main() {
       `t_WORLDS_${year}`
     )
     for (const r of rows) {
-      if (!r.OverviewPage || r.OverviewPage.includes('/')) continue
+      if (!r.OverviewPage) continue
+      // 슬래시 있는 항목은 /Main Event 만 허용 (Play-In·지역 예선 제외)
+      if (r.OverviewPage.includes('/') && !r.OverviewPage.endsWith('/Main Event')) continue
       result.push({
         name: r.Name ?? '',
         overviewPage: r.OverviewPage,

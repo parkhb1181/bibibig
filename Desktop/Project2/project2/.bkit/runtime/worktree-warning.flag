@@ -1,8 +1,0 @@
-{
-  "detectedAt": "2026-06-11T07:45:08.079Z",
-  "toplevel": "C:/Users/user",
-  "gitDir": "C:\\Users\\user\\.git",
-  "gitCommonDir": "C:\\.git",
-  "issue": "https://github.com/anthropics/claude-code/issues/46808",
-  "message": "git worktree detected — Claude Code hooks may not fire (issue #46808). Run bkit from the primary repository if hook-driven automation is required."
-}

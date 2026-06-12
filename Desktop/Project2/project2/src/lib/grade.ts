@@ -1,4 +1,4 @@
-// §7.4 등급표 — 고정, 임의 수정 금지
+// §7.4 Grade table — fixed, do not modify
 
 export type Grade =
   | 'GRAND SLAM'
@@ -19,17 +19,17 @@ export function determineGrade(trophies: Trophy[]): Grade {
   const nationalWins = [has('SPLIT1'), has('SPLIT2')].filter(Boolean).length
   if (has('MSI') || nationalWins >= 2) return 'ELITE'
 
-  // CONTENDER: 국내 우승 1회 또는 Worlds 4강+
-  // Worlds 4강+ 판단은 SimResult.steps에서 추론 — grade.ts는 trophies + worldsBest만 받음
+  // CONTENDER: 1 domestic title or Worlds top 4
+  // Worlds top-4 inference is done via worldsBest in the caller
   if (nationalWins >= 1) return 'CONTENDER'
 
-  return 'REBUILD'  // 플옵/Worlds 진출 여부는 SimResult에서 판단 후 호출 측이 PLAYOFF TEAM 반환
+  return 'REBUILD'  // playoff/Worlds qualification evaluated in gradeWithWorldsAndPlayoff
 }
 
-// 호출 측에서 Worlds 4강+ 또는 플옵 진출 여부를 직접 판단해야 하는 경우를 위한 헬퍼
+// Helper for callers that need to check Worlds top-4 or playoff qualification directly
 export function gradeWithWorldsAndPlayoff(params: {
   trophies: Trophy[]
-  worldsBest: number | null    // 1=우승, 2=준우승, 3=4강, ... null=진출못함
+  worldsBest: number | null    // 1=Champion, 2=Runner-up, 3/4=SF, ... null=DNQ
   reachedPlayoff: boolean
   reachedWorlds: boolean
 }): Grade {
@@ -42,7 +42,7 @@ export function gradeWithWorldsAndPlayoff(params: {
   const nationalWins = [has('SPLIT1'), has('SPLIT2')].filter(Boolean).length
   if (has('MSI') || nationalWins >= 2) return 'ELITE'
 
-  // Worlds 4강 이상 (worldsBest 1~4)
+  // Worlds top 4 (worldsBest 1~4)
   if (worldsBest !== null && worldsBest <= 4) return 'CONTENDER'
   if (nationalWins >= 1) return 'CONTENDER'
 

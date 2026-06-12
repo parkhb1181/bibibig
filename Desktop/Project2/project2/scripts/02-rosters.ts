@@ -192,18 +192,46 @@ async function main() {
     })
   }
 
+  // (team, year, role) 단위 중복 제거 — 주전 1명만 (§3: 게임 수 내림차순 → 동률 시 playerId 알파벳 오름차순)
+  // 같은 선수가 "Ssumday"/"ssumday"처럼 케이싱 불일치로 두 항목에 걸쳐 집계된 경우도 여기서 통합
+  const dedupMap = new Map<string, RosterEntry>()
+  for (const e of entries) {
+    const k = `${e.team}|${e.year}|${e.role}`
+    const existing = dedupMap.get(k)
+    if (
+      !existing ||
+      e.gameCount > existing.gameCount ||
+      (e.gameCount === existing.gameCount && e.playerId < existing.playerId)
+    ) {
+      dedupMap.set(k, e)
+    }
+  }
+  const finalEntries = [...dedupMap.values()]
+
   // Players 테이블 메타 수집 (nameEn, nameKo)
-  // playerIds를 50개 단위 청크로 IN 쿼리 — 또는 개별 쿼리 (안전하게 배치)
-  // Cargo WHERE에 IN 구문이 지원되는지 불명확 → 개별 쿼리 (캐시 덕에 재실행 비용 없음)
+  // 캐시 있으면 즉시 로드, 없으면 API 호출 없이 playerId 폴백 (2차 보강은 별도 실행)
+  const CARGO_DIR = path.join(process.cwd(), 'pipeline-cache', 'cargo')
   const players: Record<string, PlayerMeta> = {}
   let pidIdx = 0
+  let cacheHit = 0
+  let cacheMiss = 0
   const pidList = [...playerIds]
 
   for (const pid of pidList) {
     pidIdx++
-    if (pidIdx % 200 === 0) process.stderr.write(`  Players: ${pidIdx}/${pidList.length}\n`)
+    if (pidIdx % 200 === 0) process.stderr.write(`  Players: ${pidIdx}/${pidList.length} (hit=${cacheHit} miss=${cacheMiss})\n`)
 
     const key = `player_${pid.replace(/[^a-zA-Z0-9_-]/g, '_')}`
+    const cacheFile = path.join(CARGO_DIR, `${key}.json`)
+
+    if (!fs.existsSync(cacheFile)) {
+      // 캐시 미스 → API 미호출, playerId를 nameEn으로 폴백
+      cacheMiss++
+      players[pid] = { nameEn: pid, nameKo: null, country: '', primaryRole: '' }
+      continue
+    }
+
+    cacheHit++
     const rows = await cargoPaginate(
       {
         tables: 'Players',
@@ -215,20 +243,24 @@ async function main() {
     if (rows.length > 0) {
       const r = rows[0]
       players[pid] = {
-        nameEn: r.Name || pid,
+        nameEn: r.ID || pid,  // Players.Name=본명이므로 ID(닉네임) 사용 (Faker, TheShy 등)
         nameKo: r.NativeName || null,
         country: '',  // Country는 현재 불요 — Phase 2 사진 매핑 시 사용
         primaryRole: r.Role || '',
       }
+    } else {
+      players[pid] = { nameEn: pid, nameKo: null, country: '', primaryRole: '' }
     }
   }
 
-  const out: RostersFile = { players, entries }
+  process.stderr.write(`  Players 완료: 캐시 hit=${cacheHit} / 폴백 miss=${cacheMiss}\n`)
+
+  const out: RostersFile = { players, entries: finalEntries }
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2), 'utf-8')
 
   console.log(`\nrosters.json 저장`)
   console.log(`  Players 메타: ${Object.keys(players).length}명`)
-  console.log(`  RosterEntry: ${entries.length}건`)
+  console.log(`  RosterEntry: ${finalEntries.length}건 (dedup 전 ${entries.length}건)`)
 }
 
 main().catch(e => { process.stderr.write(`Fatal: ${e}\n`); process.exit(1) })
