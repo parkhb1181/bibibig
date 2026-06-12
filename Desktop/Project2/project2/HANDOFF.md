@@ -4,27 +4,13 @@
 > 여기에는 **상태만** 기록한다 — 절차·DoD·수치·스키마는 SSOT 3종이 원문 (복제 금지).
 
 ## 현재 상태
-- 날짜 / Phase: D2 (2026-06-12) / Phase 3 진행 중
-- 브랜치: main (최신 커밋: 70bef93)
-- 빌드 상태: Next.js build ✓ (8 페이지 정상)
-- **복귀 후 재개 시작점**: Vercel 배포 확인 → 브라우저 UI 검증(모바일/PC) → 호빈 피드백 기반 후속 조정
+- 날짜 / Phase: D2 (2026-06-12) / Phase 2 완료, Vercel push 완료
+- 브랜치: main (최신 커밋: 9f6fa15)
+- 빌드 상태: Next.js build ✓ / Vercel 재빌드 중
+- **복귀 후 재개 시작점**: Vercel 재빌드 완료 후 사진 확인 → 리그 계수 적용 여부 결정 (호빈 게이트)
 
 ## 완료 (최신)
-- **UX 대규모 개선 9종 (70bef93)**: 영문화·레이아웃·카드·시뮬 연출 전면 개편
-  1. i18n 제거 — 영문 단일화 (LangProvider/ko.ts 제거, useLang → en passthrough)
-  2. 슬롯 1줄 수평(flex-nowrap) + 100dvh safe-area + PC 결과 grid-cols-5
-  3. 스크롤바 숨김(no-scrollbar) + Reroll 버튼 Primary CTA + 서브텍스트 명도 개선
-  4. 트로피→배경글로우: MSI 골드 그라디언트+반짝이 / Worlds 파란 배경+골드보더
-  5. crown→FINALS MVP 배지 (crown.png 오버레이 제거)
-  6. 뱃지 라벨 `ALL-PRO`→`1st`
-  7. 시즌 영문화: Spring/Summer + QF/SF/Finals 라운드 레이블
-  8. 시뮬 연출: 1000ms 간격, 마지막 상대 표시
-  9. 경기 결과 시각화: 세트별 원(●●○○●) + DNQ 회색원
-- **상대 풀 3분리 + S=20 확정 (70bef93)**: regular/msi/worlds 분리, Worlds 통과율 65.5%
-- **PlayerCard photo fix (9d1eaae)**: env var 방식 폐기 → player.photo 직접 사용. origin/main push 완료
-- **players.json photo 보존 (e7b20e8)**: 07-build.ts 재실행 시 R2 URL 덮어쓰기 방지 로직 추가
-- **리그 계수 적용 (2637599)**: LEC×0.95 / LCS×0.85, 국내 플옵 가점 한정 (CURSOR_GUIDE §9-⑤)
-- **Phase 2 실행 완료 (9f6fa15)**: 05-images.ts 852건 다운로드 + 871건 webp 변환(실패 0) → 06-upload-r2.ts R2 871건 업로드 100% → players.json photo 871건 갱신
+- **Phase 2 실행 완료 (9f6fa15)**: 05-images.ts 852건 다운로드 + 871건 webp 변환(실패 0) → 06-upload-r2.ts R2 871건 업로드 100% → players.json photo 871건 갱신 → git push
 - **stats_agg KDA 차등 (78ce42a)**: 04-ratings role×year z-score ±3 (2013~2020), 서브 -1 (전 시대). 2015 SKT 99/99/98/98/96, 2024 T1 93/89×4, 시대 평균 79.6/79.7(형평 확인)
 - **Phase 1 재빌드 완료 (15bbea9)**: LEC/LCS 국내 플옵 결과 포함, awards.csv playerId 28건 수정, Xiaohu 2022 FMVP 활성화, 07-build.ts LEC/LCS 필터 수정
   - players.json 2223건 / teams.json 445건 / OVR 75: 0명 (전원 플옵 컷 이상)
@@ -68,12 +54,6 @@
 ## 진행 중
 없음.
 
-## 완료 (세션16 — 2026-06-12)
-- **전체 영문화 완료 (f99d88b)**: src/ 전체 한글 0건 — 주석/i18n 전부 영어로 전환
-- **Bug 2종 수정 (9de2cd6)**: 하단 흰 여백 (overscroll-behavior:none + 100dvh) + 카드 스크롤바 (w-36→w-32, max-w-2xl)
-- **Caps/BrokenBlade 2024 OVR 95 확인**: players.json 실반영 ✓ (04-ratings OVR_OVERRIDES, ddde98d)
-- **Longzhu 2017 +4 확인**: players.json 실반영 ✓ (awards.csv + players.json Khan88/Cuzz85/Bdd90/PraY84/GorillA84)
-
 ## 다음 작업
 
 ### ① Canyon/Chovy 앵커 조정 (호빈 결정 후)
@@ -110,7 +90,6 @@
 - 네이밍/도메인 (PRD §13 Q1)
 
 ## 세션 로그 (최근 5개만 유지)
-- 2026-06-12 (세션15): UX 대규모 개선 9종 + 상대풀 3분리 커밋(70bef93). 빌드 ✓. 브라우저 검증 대기.
 - 2026-06-12 (세션14): awards.csv playerId 28건 수정+Xiaohu 활성화+LEC/LCS 국내결과+07-build 필터 수정. players.json 2223건. Bjergsen 89, G2 2019 93-97.
 - 2026-06-12 (세션13): 3개 버그 수정 완료 (78384d5). Worlds frame 정확(13팀·연도), KT2015 5명(dedup), G2/FNC/C9/TL 포함 확인. players.json 1593건. ④사진은 Phase2 미구현으로 null 유지.
 - 2026-06-12 (세션12): 5가지 묶음 적용 완료 (18896bd). OVR 압축 78~99, 99→2명, 카드 풀 2999→1714명, Faker 닉네임/Faker2013 OVR 94 복구. Canyon 97/Chovy 99 구조적 한계 보고.

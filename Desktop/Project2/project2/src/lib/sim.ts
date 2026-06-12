@@ -40,8 +40,10 @@ const ROLE_WEIGHT: Record<string, number> = {
   MID: 1.10, JGL: 1.10, ADC: 1.00, TOP: 0.95, SUP: 0.85,
 }
 
-// §9 Elo scale (tuning parameter) — S=20
-const S = 20
+// §9 Elo scale — 기본 10 (2026-06 v2: 90 OVR 트로피 확률 ~2×, S=14 대비)
+let _eloScale = 10
+export function setEloScale(s: number): void { _eloScale = s }
+export function getEloScale(): number { return _eloScale }
 
 function ord(n: number): string {
   const v = n % 100
@@ -57,7 +59,7 @@ function calcTeamOvr(picks: SimPlayer[]): number {
 }
 
 function winProb(myRating: number, oppRating: number): number {
-  return 1 / (1 + Math.pow(10, (oppRating - myRating) / S))
+  return 1 / (1 + Math.pow(10, (oppRating - myRating) / _eloScale))
 }
 
 function playSeries(
@@ -123,6 +125,7 @@ function runDomesticSplit(
   trophyWon: boolean
   reachedFinal: boolean
   reachedPlayoff: boolean
+  regularRank: number
   steps: SimStep[]
 } {
   const steps: SimStep[] = []
@@ -155,7 +158,7 @@ function runDomesticSplit(
       stage: `${splitLabel}_missed`,
       label: `${splitLabel} Playoffs DNQ (${userRank}${ord(userRank)} Place)`,
     })
-    return { trophyWon: false, reachedFinal: false, reachedPlayoff: false, steps }
+    return { trophyWon: false, reachedFinal: false, reachedPlayoff: false, regularRank: userRank, steps }
   }
 
   // Playoffs: 1v4 / 2v3 semifinal
@@ -172,7 +175,7 @@ function runDomesticSplit(
   })
 
   if (!sf.win) {
-    return { trophyWon: false, reachedFinal: false, reachedPlayoff: true, steps }
+    return { trophyWon: false, reachedFinal: false, reachedPlayoff: true, regularRank: userRank, steps }
   }
 
   // Finals: other-side SF winner — determined by expected value (deterministic)
@@ -187,7 +190,7 @@ function runDomesticSplit(
     series: [{ opp: finOpp.name, score: `${fin.wins}-${fin.losses}`, win: fin.win, games: fin.games }],
   })
 
-  return { trophyWon: fin.win, reachedFinal: true, reachedPlayoff: true, steps }
+  return { trophyWon: fin.win, reachedFinal: true, reachedPlayoff: true, regularRank: userRank, steps }
 }
 
 export function simulate(
@@ -305,7 +308,12 @@ export function simulate(
   }
 
   const grade = gradeWithWorldsAndPlayoff({
-    trophies, worldsBest, reachedPlayoff, reachedWorlds,
+    trophies,
+    worldsBest,
+    reachedPlayoff,
+    reachedWorlds,
+    bestRegularRank: Math.min(s1.regularRank, s2.regularRank),
+    msiParticipated: s1.reachedFinal,
   })
 
   return {

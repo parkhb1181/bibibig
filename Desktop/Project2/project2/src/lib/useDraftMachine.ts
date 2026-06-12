@@ -6,8 +6,9 @@
 import { useReducer, useCallback } from 'react'
 import { mulberry32 } from './prng'
 import { simulate } from './sim'
+import { highlightStepsFlat, pickHighlightSteps } from './simHighlight'
 import type { PlayerSeason, TeamYear } from './data'
-import type { SimResult } from './sim'
+import type { SimResult, SimStep } from './sim'
 import type { Opponent } from './sim'
 
 export const ROLES = ['TOP', 'JGL', 'MID', 'ADC', 'SUP'] as const
@@ -40,8 +41,9 @@ export type DraftState = {
   // Reroll remaining — GAME_SPEC §2: full-team 1x (fullReroll)
   rerollLeft: number
 
-  // REVEAL progress
-  revealStep: number       // index of last displayed step
+  // REVEAL progress — revealSteps: 섹션별 마지막 경기 4개만
+  revealStep: number
+  revealSteps: SimStep[]
   simResult: SimResult | null
 
   // Error message
@@ -73,6 +75,7 @@ const INITIAL_STATE: DraftState = {
   spunTeam: null,
   rerollLeft: REROLL_MAX,
   revealStep: 0,
+  revealSteps: [],
   simResult: null,
   error: null,
 }
@@ -83,7 +86,9 @@ function reducer(state: DraftState, action: Action): DraftState {
   switch (action.type) {
 
     // START: store seed, receive first spin result → PICK
+    // Phase guard prevents StrictMode double-dispatch (only valid from IDLE)
     case 'START':
+      if (state.phase !== 'IDLE') return state
       return {
         ...INITIAL_STATE,
         phase: 'PICK',
@@ -94,7 +99,9 @@ function reducer(state: DraftState, action: Action): DraftState {
       }
 
     // SPIN_DONE: round-start spin result → PICK screen
+    // Phase guard prevents StrictMode double-dispatch (only valid from SPIN)
     case 'SPIN_DONE':
+      if (state.phase !== 'SPIN') return state
       return { ...state, phase: 'PICK', spunTeam: action.spunTeam, error: null }
 
     // FULL_REROLL: full team re-draw (GAME_SPEC §2) — new team + new year
@@ -125,26 +132,29 @@ function reducer(state: DraftState, action: Action): DraftState {
       }
     }
 
-    // SIM_DONE: simulation complete → start REVEAL
-    case 'SIM_DONE':
-      return { ...state, phase: 'REVEAL', simResult: action.result, revealStep: 0 }
+    // SIM_DONE: simulation complete → REVEAL (하이라이트 4스텝만)
+    case 'SIM_DONE': {
+      const revealSteps = highlightStepsFlat(pickHighlightSteps(action.result.steps))
+      return { ...state, phase: 'REVEAL', simResult: action.result, revealSteps, revealStep: 1 }
+    }
 
-    // REVEAL_NEXT: show 1 step at a time (1000ms interval)
+    // REVEAL_NEXT: 하이라이트 1스텝씩 (interval은 page.tsx)
     case 'REVEAL_NEXT': {
       if (!state.simResult) return state
       const next = state.revealStep + 1
-      if (next >= state.simResult.steps.length) {
+      // next === length → 마지막(4번째 Worlds) 표시. length 초과일 때만 RESULT.
+      if (next > state.revealSteps.length) {
         return { ...state, phase: 'RESULT', revealStep: next }
       }
       return { ...state, revealStep: next }
     }
 
-    // REVEAL_SKIP: Skip button → jump to RESULT immediately
+    // REVEAL_SKIP: Skip → RESULT
     case 'REVEAL_SKIP':
       return {
         ...state,
         phase: 'RESULT',
-        revealStep: state.simResult?.steps.length ?? 0,
+        revealStep: state.revealSteps.length,
       }
 
     // RESET: play again

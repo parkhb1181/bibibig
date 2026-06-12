@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     description: 'Draft the greatest League of Legends players of all time and compete for the World Championship.',
     images: ['/og-image.png'],
   },
+  verification: {
+    google: 'jg_M-Yy2R7r62UJFFUvHj6jrkmjG9qdLFTd9-ZEzm28',
+  },
 }
 
 export const viewport: Viewport = {

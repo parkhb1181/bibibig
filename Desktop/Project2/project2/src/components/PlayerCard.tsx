@@ -20,8 +20,9 @@ type Props = {
   onClick?: () => void
 }
 
+// pick: 모바일 w-28 5:8. 데스크톱 9:16 세로형 + .draft-pick-w
 const SIZE_CLS: Record<CardSize, string> = {
-  pick:   'w-28 h-40',
+  pick:   'w-28 aspect-[5/8] md:flex-none md:aspect-[9/16] draft-pick-w',
   slot:   'w-20 h-28',
   result: 'w-32 h-44',
 }
@@ -30,6 +31,18 @@ const OVR_SIZE: Record<CardSize, string> = {
   pick:   'text-2xl',
   slot:   'text-lg',
   result: 'text-3xl',
+}
+
+// Desktop (md+): one step up from mobile; slot stays compact (header use)
+const NAME_SIZE_CLS: Record<CardSize, string> = {
+  pick:   'text-[11px] md:text-[12px]',
+  slot:   'text-[9px]',
+  result: 'text-[11px] md:text-[13px]',
+}
+const META_SIZE_CLS: Record<CardSize, string> = {
+  pick:   'text-[8px] md:text-[9px]',
+  slot:   'text-[8px]',
+  result: 'text-[8px] md:text-[10px]',
 }
 
 const ROLE_ABBR: Record<string, string> = {
@@ -52,6 +65,9 @@ function avatarBg(teamSlug: string): string {
 
 export default function PlayerCard({ player, size = 'pick', disabled = false, onClick }: Props) {
   const [imgError, setImgError] = useState(false)
+
+  // pick 카드만 데스크톱에서 컨테이너 쿼리(cqw)로 텍스트 비례 확대 (globals.css .pc-pick)
+  const pick = size === 'pick'
 
   const name = player.nameEn
   const isWorlds = player.frame === 'WORLDS'
@@ -79,6 +95,7 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
       disabled={disabled}
       className={[
         SIZE_CLS[size],
+        pick ? 'pc-pick' : '',
         'group relative flex flex-col rounded-lg overflow-hidden select-none',
         cardBg,
         'border',
@@ -105,21 +122,24 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
 
       {/* Top-left: OVR + role */}
       <div className="absolute top-1 left-1.5 z-20 flex flex-col leading-none">
-        <span className={`${OVR_SIZE[size]} font-black drop-shadow text-[var(--card-ovr,#f0f0f0)]`}>
+        <span
+          className={`${OVR_SIZE[size]} font-black text-[var(--card-ovr,#f0f0f0)] ${pick ? 'pc-ovr' : ''}`}
+          style={{ textShadow: '0 1px 6px rgba(0,0,0,0.95), 0 0 12px rgba(0,0,0,0.8)' }}
+        >
           {player.ovr}
         </span>
-        <span className="text-[10px] font-semibold text-[var(--card-role,#a0a0c0)] uppercase tracking-wider">
+        <span className={`text-[10px] font-semibold text-[var(--card-role,#a0a0c0)] uppercase tracking-wider ${pick ? 'pc-role' : ''}`}>
           {ROLE_ABBR[player.role] ?? player.role}
         </span>
       </div>
 
       {/* Top-right: league badge (always) + All-Pro badge (if applicable) */}
       <div className="absolute top-1 right-1 z-20 flex flex-col gap-0.5">
-        <span className={`text-[7px] font-bold px-1 py-0.5 rounded-sm uppercase leading-none ${LEAGUE_BADGE[player.league] ?? 'bg-[var(--card-badge-bg,#2a4a8a)] text-[var(--card-badge-text,#80aaff)]'}`}>
+        <span className={`text-[7px] font-bold px-1 py-0.5 rounded-sm uppercase leading-none ${pick ? 'pc-badge ' : ''}${LEAGUE_BADGE[player.league] ?? 'bg-[var(--card-badge-bg,#2a4a8a)] text-[var(--card-badge-text,#80aaff)]'}`}>
           {player.league}
         </span>
         {badges.includes('ALLPRO_1ST') && (
-          <span className="text-[7px] font-bold bg-yellow-900/70 text-yellow-300 px-1 py-0.5 rounded-sm leading-none text-center">
+          <span className={`text-[7px] font-bold bg-yellow-900/70 text-yellow-300 px-1 py-0.5 rounded-sm leading-none text-center ${pick ? 'pc-badge' : ''}`}>
             1st
           </span>
         )}
@@ -127,7 +147,8 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
 
       {/* Center: photo / avatar */}
       {/* Plain <img> — avoids Next.js Image Optimizer R2 onError fallback bug */}
-      <div className="flex-1 relative w-full" data-photo={player.photo ?? 'null'}>
+      {/* overflow-hidden: clips group-hover:scale-110 within photo area (button has it too, but intermediate div breaks compositing clip) */}
+      <div className="flex-1 relative w-full overflow-hidden" data-photo={player.photo ?? 'null'}>
         {photoSrc(player) && !imgError ? (
           <img
             src={photoSrc(player)!}
@@ -143,10 +164,16 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
             {player.nameEn.charAt(0).toUpperCase()}
           </div>
         )}
+        {/* 하단 스크림 — 사진 색상과 무관하게 하단 텍스트 가독성 보장 */}
+        <div
+          className="absolute inset-0 z-10 pointer-events-none"
+          style={{ background: 'linear-gradient(180deg, transparent 40%, rgba(10,14,26,.85) 95%)' }}
+          aria-hidden
+        />
         {/* MVP overlay — WORLDS MVP만 표시 (FINALS MVP 배지 없음) */}
         {isWorldsMvp && (
           <div className="absolute bottom-0 inset-x-0 z-20 flex justify-center pb-0.5">
-            <span className="text-[7px] font-black text-sky-200 tracking-[0.12em] uppercase bg-sky-900/80 px-1.5 py-0.5 rounded-sm leading-none">
+            <span className={`text-[7px] font-black text-sky-200 tracking-[0.12em] uppercase bg-sky-900/80 px-1.5 py-0.5 rounded-sm leading-none ${pick ? 'pc-badge' : ''}`}>
               WORLDS MVP
             </span>
           </div>
@@ -155,10 +182,10 @@ export default function PlayerCard({ player, size = 'pick', disabled = false, on
 
       {/* Bottom: name + team · year */}
       <div className="px-1.5 pb-1.5 pt-1 bg-[var(--card-footer-bg,#0d0d1a)]">
-        <p className="text-center text-[var(--card-name,#e8e8f0)] font-semibold truncate leading-tight" style={{ fontSize: size === 'slot' ? '9px' : '11px' }}>
+        <p className={`text-center text-[var(--card-name,#e8e8f0)] font-semibold truncate leading-tight ${NAME_SIZE_CLS[size]} ${pick ? 'pc-name' : ''}`}>
           {name}
         </p>
-        <p className="text-center text-[var(--card-meta,#9090b8)] truncate" style={{ fontSize: '8px' }}>
+        <p className={`text-center text-[var(--card-meta,#9090b8)] truncate ${META_SIZE_CLS[size]} ${pick ? 'pc-meta' : ''}`}>
           {player.team} · {player.year}
         </p>
       </div>

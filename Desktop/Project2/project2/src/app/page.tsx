@@ -3,7 +3,12 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0d0d1a] text-white flex flex-col items-center justify-center px-6">
+    <main className="min-h-screen bg-[#0d0d1a] text-white flex flex-col">
+      <header className="px-6 pt-6 pb-2 w-full" style={{ paddingTop: 'max(1.5rem, env(safe-area-inset-top))' }}>
+        <p className="font-black text-lg tracking-tight text-white">GRANDSLAM</p>
+      </header>
+
+      <div className="flex-1 flex flex-col items-center justify-center px-6 pb-12">
       <div className="text-center max-w-sm w-full">
         {/* Tagline */}
         <p className="text-[10px] tracking-[0.5em] text-white/20 uppercase mb-8">
@@ -35,6 +40,7 @@ export default function Home() {
             Rating System →
           </Link>
         </div>
+      </div>
       </div>
     </main>
   )

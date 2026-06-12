@@ -1,0 +1,18 @@
+[
+  {
+    "sessionId": "unknown",
+    "reason": "other",
+    "endedAt": "2026-06-12T14:11:13.264Z",
+    "feature": null,
+    "phase": null,
+    "progress": null
+  },
+  {
+    "sessionId": "unknown",
+    "reason": "other",
+    "endedAt": "2026-06-12T14:30:03.470Z",
+    "feature": null,
+    "phase": null,
+    "progress": null
+  }
+]
